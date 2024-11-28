@@ -1,1 +1,1 @@
-hello_world
+DIPLOM_MIKHAIL_MOLIAVKO
