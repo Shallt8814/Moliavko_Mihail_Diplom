@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8b3003e-0307-409e-b339-4e645665f47f" name="Changes" comment="any text">
+      <change afterPath="$PROJECT_DIR$/checking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_automobile_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_main_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/page/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/page/base_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/page/elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/scriptsh/run_api.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/scriptsh/run_aut_lk.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/scriptsh/runallure.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/templates/test_error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests/test_automobile_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests/test_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/189bc9f0-896d-447a-bdd6-9f98f9dc58d3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/23488812-d2bb-42fd-90be-ebbc8581d002-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/2b097d43-41b2-4802-b87c-3a617ca818b5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/35f00606-5fa8-4092-a8bc-a93275eb3f3a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/39690d18-a6aa-40ef-bb83-7de7fcce2ce5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/3e774d04-5309-479a-93f8-248ed183fd2c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/428abef0-1fb1-4cdf-b610-94362af02ef9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/43375b75-5260-4953-b1b8-2001ac522eeb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/540c1691-1a01-4869-9eed-2d9d2405cc9a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/55d3ef9e-4afc-40c4-a354-b4882757aaaa-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/56bf32f5-ab74-4abd-aae1-706f4bcc869c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/5b7d1694-e6dc-451b-836d-05caba2fb3d6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/6e1f7f10-77bc-4e70-8d92-0b77c43d3530-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/702c765b-e940-4144-be4e-f161fa552fab-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/708d5672-667d-4b05-97e6-1026529cfb51-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/80c5a4f8-374a-469e-91b1-607a281a4379-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/d607b0dd-8649-45f3-88e0-dda780d7a9ed-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/results/f40d6c97-bff9-47b4-a87f-def91cdbfbc8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/test_class_work_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/moliavko_class_work/test_class_work_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_trello/results_accordian/01815044-659b-4682-ad7e-4ff5c3637689-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_trello/results_accordian/22cf8e28-e881-4c81-a92b-dafc1095f599-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_trello/results_accordian/5a70e567-f161-4693-b899-c72e45319a4d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_trello/results_accordian/74a6a669-f43a-4174-9f9b-378a5ba36a95-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_trello/results_accordian/809af62b-7663-4a51-89b1-35b9eea25707-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_trello/results_accordian/c4ba0ad3-5c0f-44d6-b558-e805f8c264bf-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_trello/results_accordian/e02a0c94-94b8-4ab5-9a3c-87e4d88ad503-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_trello/results_alerts/2498d595-3dde-439b-afbd-1c118fd0761b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_trello/results_alerts/80145c92-1b56-4ddc-84d5-f9d8018480b8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/moliavko_trello/results_alerts/930404aa-f09c-4cdd-8596-7904aaf78d99-result.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hello_world" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Shallt8814&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Shallt8814/tests_moliavko_m.git&quot;,
+    &quot;accountId&quot;: &quot;33e09689-9f5f-4caa-992c-66b6ccb0c3c0&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/moliavko_m/diplom/tests/test.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2pUCmQgVnyAW0ZDIMtoPISvQrJz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.pytest for checking.test_check_box.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_automobile_page.test_searching.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main_page.test_footer.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main_page.test_headers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mike/PycharmProjects/tests_moliavko_m/moliavko_m&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/moliavko_m" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_automobile_page.test_searching">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="tests_moliavko_m" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moliavko_m/diplom/tests/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for checking.test_check_box" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tests_moliavko_m" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;checking.test_check_box&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_automobile_page.test_searching" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tests_moliavko_m" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_automobile_page.test_searching&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_main_page.test_footer" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tests_moliavko_m" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_main_page.test_footer&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_main_page.test_headers" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tests_moliavko_m" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_main_page.test_headers&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test.test_check_box" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tests_moliavko_m" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_check_box&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_automobile_page.test_searching" />
+        <item itemvalue="Python tests.pytest for test_main_page.test_footer" />
+        <item itemvalue="Python tests.pytest for test_main_page.test_headers" />
+        <item itemvalue="Python tests.pytest for checking.test_check_box" />
+        <item itemvalue="Python tests.pytest for test.test_check_box" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8b3003e-0307-409e-b339-4e645665f47f" name="Changes" comment="" />
+      <created>1732811425300</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732811425300</updated>
+    </task>
+    <task id="LOCAL-00001" summary="hello world">
+      <option name="closed" value="true" />
+      <created>1732811571175</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732811571175</updated>
+    </task>
+    <task id="LOCAL-00002" summary="any text">
+      <option name="closed" value="true" />
+      <created>1732812005361</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732812005361</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hello world" />
+    <MESSAGE value="any text" />
+    <option name="LAST_COMMIT_MESSAGE" value="any text" />
+  </component>
+</project>
