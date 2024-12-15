@@ -9,7 +9,7 @@ from selenium.webdriver.chrome.options import Options
 @pytest.fixture
 def web_browser(request):
     browser = webdriver.Chrome()
-    browser.set_window_size(1200, 1200)
+    browser.set_window_size(2000, 1200)
 
     # Вернуть экземпляр браузера в тестовый пример:
     yield browser

@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8b3003e-0307-409e-b339-4e645665f47f" name="Changes" comment="any text">
-      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/tests/test_automobile_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests/test_automobile_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_header_and_footer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests/test_header_and_footer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checking.py" beforeDir="false" afterPath="$PROJECT_DIR$/checking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_automobile_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/tests/test_automobile_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/tests/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests/test_main_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +82,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_automobile_page.test_searching">
+  <component name="RunManager" selected="Python tests.pytest for checking.test_check_box">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="tests_moliavko_m" />
       <option name="ENV_FILES" value="" />
@@ -184,10 +192,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_automobile_page.test_searching" />
-        <item itemvalue="Python tests.pytest for test_main_page.test_footer" />
-        <item itemvalue="Python tests.pytest for test_main_page.test_headers" />
         <item itemvalue="Python tests.pytest for checking.test_check_box" />
+        <item itemvalue="Python tests.pytest for test_main_page.test_footer" />
+        <item itemvalue="Python tests.pytest for test_automobile_page.test_searching" />
+        <item itemvalue="Python tests.pytest for test_main_page.test_headers" />
         <item itemvalue="Python tests.pytest for test.test_check_box" />
       </list>
     </recent_temporary>
@@ -232,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733855787539</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="any text">
+      <option name="closed" value="true" />
+      <created>1733856415518</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733856415518</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
