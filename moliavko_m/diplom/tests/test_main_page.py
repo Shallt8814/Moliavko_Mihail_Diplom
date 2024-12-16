@@ -248,7 +248,7 @@ def test_main_citates(web_browser):
     element = web_browser.find_element(By.XPATH,'(//div[@class="slider__track"])[2]')
     web_browser.execute_script("arguments[0].scrollIntoView(true);", element)
     time.sleep(2)
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.txt_1_slide_citate_text.is_visible())
         check.is_true(page.txt_1_slide_autor.is_visible())
         check.equal(page.txt_1_slide_citate_text.get_text(), "No method is more effective than the good example.")
@@ -256,31 +256,31 @@ def test_main_citates(web_browser):
     page.btn_citates_slider_right_button.click()
     page.btn_citates_slider_left_button.click()
     page.btn_citates_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.txt_2_slide_citate_text.is_visible())
         check.is_true(page.txt_2_slide_autor.is_visible())
         check.equal(page.txt_2_slide_citate_text.get_text(), "Development is not always the same thing as progress.")
         check.equal(page.txt_2_slide_autor.get_text(), "Ingvar Kamprad")
     page.btn_citates_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.txt_3_slide_citate_text.is_visible())
         check.is_true(page.txt_3_slide_autor.is_visible())
         check.equal(page.txt_3_slide_citate_text.get_text(), "By always asking why we are doing this or that, we can find new paths.")
         check.equal(page.txt_3_slide_autor.get_text(), "Ingvar Kamprad")
     page.btn_citates_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.txt_4_slide_citate_text.is_visible())
         check.is_true(page.txt_4_slide_autor.is_visible())
         check.equal(page.txt_4_slide_citate_text.get_text(), "The fear of making mistakes is the root of bureaucracy and the enemy of development.")
         check.equal(page.txt_4_slide_autor.get_text(), "Ingvar Kamprad")
     page.btn_citates_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.txt_5_slide_citate_text.is_visible())
         check.is_true(page.txt_5_slide_autor.is_visible())
         check.equal(page.txt_5_slide_citate_text.get_text(), "Time is your most important resource.")
         check.equal(page.txt_5_slide_autor.get_text(), "Ingvar Kamprad")
     page.btn_citates_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.txt_6_slide_citate_text.is_visible())
         check.is_true(page.txt_6_slide_autor.is_visible())
         check.equal(page.txt_6_slide_citate_text.get_text(), "Winning does not mean that someone else has to lose. The finest victories are those without losers.")
@@ -296,17 +296,17 @@ def test_main_news(web_browser):
     element = web_browser.find_element(By.XPATH,'(//h2[@class="border-header"])[2]')
     web_browser.execute_script("arguments[0].scrollIntoView(true);", element)
     time.sleep(2)
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_1_news_slide.is_visible())
         check.is_true(page.txt_1_news_slide_text.is_visible())
         check.equal(page.txt_1_news_slide_text.get_text(), "Post-COP29 reflections: A call to action for Funders")
         check.is_true(page.btn_1_news_slide.is_clickable())
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_2_news_slide.is_visible())
         check.is_true(page.txt_2_news_slide_text.is_visible())
         check.equal(page.txt_2_news_slide_text.get_text(), "Maja Lazić, World Bank-UNHCR Joint Data Center on Forced Displacement: “There’s a huge momentum around the data that’s being produced on people forced to flee”")
         check.is_true(page.btn_2_news_slide.is_clickable())
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_3_news_slide.is_visible())
         check.is_true(page.txt_3_news_slide_text.is_visible())
         check.equal(page.txt_3_news_slide_text.get_text(), 'Meena Kamath, The Chancery Lane Project: "I wanted to use the power of the law to fight climate change."')
@@ -314,156 +314,156 @@ def test_main_news(web_browser):
     page.btn_slider_right_button.click()
     page.btn_slider_left_button.click()
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_4_news_slide.is_visible())
         check.is_true(page.txt_4_news_slide_text.is_visible())
         check.equal(page.txt_4_news_slide_text.get_text(), 'IKEA Foundation supports MSF in Sudan crisis scale-up')
         check.is_true(page.btn_4_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_5_news_slide.is_visible())
         check.is_true(page.txt_5_news_slide_text.is_visible())
         check.equal(page.txt_5_news_slide_text.get_text(), 'Tom Rivett-Carnac, Global Optimism: "I refuse to accept that we’re going to lose these incredible ecosystems."')
         check.is_true(page.btn_5_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_6_news_slide.is_visible())
         check.is_true(page.txt_6_news_slide_text.is_visible())
         check.equal(page.txt_6_news_slide_text.get_text(), 'Is it still possible to change the future of our planet? Read more in our 2023 Annual Review')
         check.is_true(page.btn_6_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_7_news_slide.is_visible())
         check.is_true(page.txt_7_news_slide_text.is_visible())
         check.equal(page.txt_7_news_slide_text.get_text(), '"How storytelling can be used for effective change."')
         check.is_true(page.btn_7_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_8_news_slide.is_visible())
         check.is_true(page.txt_8_news_slide_text.is_visible())
         check.equal(page.txt_8_news_slide_text.get_text(), 'Urmila Sarkar, Generation Unlimited: "“I really believe that young people can make a difference in the world”')
         check.is_true(page.btn_8_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_9_news_slide.is_visible())
         check.is_true(page.txt_9_news_slide_text.is_visible())
         check.equal(page.txt_9_news_slide_text.get_text(),'Tzeporah Berman, Fossil Fuel Non-Proliferation Treaty Initiative: "Never underestimate the power that we have to make change"')
         check.is_true(page.btn_9_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_10_news_slide.is_visible())
         check.is_true(page.txt_10_news_slide_text.is_visible())
         check.equal(page.txt_10_news_slide_text.get_text(),'Katarina Kahlmann: "Entrepreneurs in the Global South can help address environmental problems and also increase their income”')
         check.is_true(page.btn_10_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_11_news_slide.is_visible())
         check.is_true(page.txt_11_news_slide_text.is_visible())
         check.equal(page.txt_11_news_slide_text.get_text(), 'Thami Schweichler, United Repair Center: "Change may be a phone call away."')
         check.is_true(page.btn_11_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_12_news_slide.is_visible())
         check.is_true(page.txt_12_news_slide_text.is_visible())
         check.equal(page.txt_12_news_slide_text.get_text(), 'Dr. Catherine Mwema, BOMA: "We just need to give hardworking communities hope through our support."')
         check.is_true(page.btn_12_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_13_news_slide.is_visible())
         check.is_true(page.txt_13_news_slide_text.is_visible())
         check.equal(page.txt_13_news_slide_text.get_text(), '"More funding is needed for the just transition to sustainable buildings."')
         check.is_true(page.btn_13_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_14_news_slide.is_visible())
         check.is_true(page.txt_14_news_slide_text.is_visible())
         check.equal(page.txt_14_news_slide_text.get_text(), 'How we are working on global transformations for people and planet')
         check.is_true(page.btn_14_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_15_news_slide.is_visible())
         check.is_true(page.txt_15_news_slide_text.is_visible())
         check.equal(page.txt_15_news_slide_text.get_text(), 'Call to action: "invite women to our table, hear their voices."')
         check.is_true(page.btn_15_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_16_news_slide.is_visible())
         check.is_true(page.txt_16_news_slide_text.is_visible())
         check.equal(page.txt_16_news_slide_text.get_text(), 'Tom Trewinnard, Syli: "The climate story needs to be a human story"')
         check.is_true(page.btn_16_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_17_news_slide.is_visible())
         check.is_true(page.txt_17_news_slide_text.is_visible())
         check.equal(page.txt_17_news_slide_text.get_text(), '"Sustainable livelihood intervention in displacement setting."')
         check.is_true(page.btn_17_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_18_news_slide.is_visible())
         check.is_true(page.txt_18_news_slide_text.is_visible())
         check.equal(page.txt_18_news_slide_text.get_text(), '''Emily Farnworth, Centre for Climate Engagement at Hughes Hall (University of Cambridge):"It's much more powerful when people can hear from their peers"''')
         check.is_true(page.btn_18_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_19_news_slide.is_visible())
         check.is_true(page.txt_19_news_slide_text.is_visible())
         check.equal(page.txt_19_news_slide_text.get_text(), 'Swedish companies can play a leading role in mitigating climate change')
         check.is_true(page.btn_19_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_20_news_slide.is_visible())
         check.is_true(page.txt_20_news_slide_text.is_visible())
         check.equal(page.txt_20_news_slide_text.get_text(),'Sebastián Kind, RELP (formerly Greenmap) and Climate Breakthrough Awardee: “We proved something innovative in Argentina that will benefit many other countries”')
         check.is_true(page.btn_20_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_21_news_slide.is_visible())
         check.is_true(page.txt_21_news_slide_text.is_visible())
         check.equal(page.txt_21_news_slide_text.get_text(), 'Saliem Fakir, African Climate Foundation: "We need to champion our own causes".')
         check.is_true(page.btn_21_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_22_news_slide.is_visible())
         check.is_true(page.txt_22_news_slide_text.is_visible())
         check.equal(page.txt_22_news_slide_text.get_text(), 'Caroline Clark-Maxwell, IFRS Foundation: “If everyone could understand each other, we could do the impossible.”')
         check.is_true(page.btn_22_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_23_news_slide.is_visible())
         check.is_true(page.txt_23_news_slide_text.is_visible())
         check.equal(page.txt_23_news_slide_text.get_text(), '''"It's a matter of chance where one is born."''')
         check.is_true(page.btn_23_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_24_news_slide.is_visible())
         check.is_true(page.txt_24_news_slide_text.is_visible())
         check.equal(page.txt_24_news_slide_text.get_text(), '“When we started naming heat waves, social change happened”')
         check.is_true(page.btn_24_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_25_news_slide.is_visible())
         check.is_true(page.txt_25_news_slide_text.is_visible())
         check.equal(page.txt_25_news_slide_text.get_text(), 'Shloka Nath, India Climate Collaborative: "It’s not just about the planet, it’s about us."')
         check.is_true(page.btn_25_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_26_news_slide.is_visible())
         check.is_true(page.txt_26_news_slide_text.is_visible())
         check.equal(page.txt_26_news_slide_text.get_text(), 'The IKEA Foundation pledges more than € 11 million in emergency humanitarian aid for Sudan')
         check.is_true(page.btn_26_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_27_news_slide.is_visible())
         check.is_true(page.txt_27_news_slide_text.is_visible())
         check.equal(page.txt_27_news_slide_text.get_text(),'Noah Horowitz, Clean Cooling Collaborative: "We need to be a lot smarter in how we build things and how we use them.”')
         check.is_true(page.btn_27_news_slide.is_clickable())
     page.btn_slider_right_button.click()
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_28_news_slide.is_visible())
         check.is_true(page.txt_28_news_slide_text.is_visible())
         check.equal(page.txt_28_news_slide_text.get_text(), '25,000 Health Facilities Across India are Transforming Public Health Systems to address Growing Critical Climate Issues')
         check.is_true(page.btn_28_news_slide.is_clickable())
-    with allure.step(""):
+    with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.btn_29_news_slide.is_visible())
         check.is_true(page.txt_29_news_slide_text.is_visible())
         check.equal(page.txt_29_news_slide_text.get_text(), 'How books can change children’s lives')
@@ -472,36 +472,36 @@ def test_main_news(web_browser):
 
 
 @allure.story('Тест для проверки главной страницы')
-@allure.feature('Проверка юдлка партнеров')
+@allure.feature('Проверка блока партнеров')
 def test_main_partners(web_browser):
     page = MainPage(web_browser)
     page.btn_pip_up_сookies.click()
     element = web_browser.find_element(By.XPATH,'//div[@class="partner-grid"]')
     web_browser.execute_script("arguments[0].scrollIntoView(true);", element)
     time.sleep(4)
-    with allure.step(""):
+    with allure.step("проверка количества элементов"):
         check.equal(page.txt_partners_cards.count(), 12)
     elements_partners = [
         (page.txt_partners_block_about_text,"Partners"),
         (page.txt_partners_block_about_text_text,"We build long-term, strategic partnerships with both large and small organisations. Together with our partners, we develop innovative solutions and work to change complex systems, so they benefit the many people and protect our planet.")
     ]
     for elements, elements_text in elements_partners:
-        with allure.step(""):
+        with allure.step("проверка видимости"):
             check.is_true(elements.is_visible())
-        with allure.step(""):
+        with allure.step("проверка текста"):
             check.equal(elements.get_text(), elements_text)
     elements_partners_buttons = [
         (page.btn_partners_block_more_about_partners_button,"See all partners","https://ikeafoundation.org/partners/"),
         (page.btn_learn_about_our_work_together_button,"Learn more about our work together","https://ikeafoundation.org/focus")
     ]
     for elements, elements_text, elements_url in elements_partners_buttons:
-        with allure.step(""):
+        with allure.step("проверка видимости"):
             check.is_true(elements.is_visible())
-        with allure.step(""):
+        with allure.step("проверка текста"):
             check.equal(elements.get_text(), elements_text)
-        with allure.step(""):
+        with allure.step("проверка ссылок"):
             check.equal(elements.get_attribute("href"), elements_url)
-        with allure.step(""):
+        with allure.step("проверка кликабельности"):
             check.is_true(elements.is_clickable())
 
 
