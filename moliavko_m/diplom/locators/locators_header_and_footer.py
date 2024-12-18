@@ -15,7 +15,7 @@ class HeaderFooter(WebPage):
         super().__init__(web_driver, url)
 
     #cookies
-    btn_pip_up_сookies = WebElement(xpath='//button[@class="vogdprc-button vogdprc-button--accept"]')
+    btn_pip_up_cookies = WebElement(xpath='//button[@class="vogdprc-button vogdprc-button--accept"]')
 
     #header
 

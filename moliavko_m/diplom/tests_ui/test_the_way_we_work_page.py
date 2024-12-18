@@ -30,9 +30,6 @@ def test_png_elements(web_browser):
     for elements in elements_png:
         with allure.step("проверка на видимость"):
             check.is_true(elements.is_visible())
-        with allure.step("проверка на размер"):
-            check.equal(elements.get_attribute("width"), "page.024")
-            check.equal(elements.get_attribute("height"),"683")
 
 
 

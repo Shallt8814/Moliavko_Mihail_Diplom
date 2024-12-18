@@ -11,18 +11,37 @@ app = Flask(__name__)
 def welcome():
     """ Эта функция запуская и отвечает за процесс возврата результата welcome.html. """
 
-    return render_template('welcome.html')
+    return render_template('index.html')
 
 
-@app.route("/error")
-def error():
+@app.route("/ui_test")
+def ui_test():
     """Эта функция запуская и отвечает за процесс возврата результата test_error.html."""
-    return render_template('test_error.html')
 
+    cmd = ["./scriptsh/run_ui.sh"]
+    with subprocess.Popen(cmd, stdout=subprocess.PIPE,
+                          stderr=subprocess.PIPE,
+                          stdin=subprocess.PIPE,
+                          universal_newlines=True) as result:
+        out = result.communicate()
+    return render_template('index.html', text=out, json=out)
 
-@app.route("/runallure")
-def run_allure():
+@app.route("/api_test")
+def api_test():
     """ Эта функция запуская и отвечает за генерацию отчета allure. """
+
+    cmd = ["./scriptsh/run_api.sh"]
+    with subprocess.Popen(cmd, stdout=subprocess.PIPE,
+                          stderr=subprocess.PIPE,
+                          stdin=subprocess.PIPE,
+                          universal_newlines=True) as result:
+        out = result.communicate()
+    return render_template('index.html', text=out, json=out)
+
+
+@app.route("/allure")
+def allure():
+    """ Эта функция запуская и отвечает за тесты страницы /example. """
 
     cmd = ["./scriptsh/runallure.sh"]
     with subprocess.Popen(cmd, stdout=subprocess.PIPE,
@@ -30,20 +49,7 @@ def run_allure():
                           stdin=subprocess.PIPE,
                           universal_newlines=True) as result:
         out = result.communicate()
-    return render_template('welcome.html', text=out, json=out)
-
-
-@app.route("/run_ui")
-def run_ui():
-    """ Эта функция запуская и отвечает за тесты страницы /example. """
-
-    cmd = ["./scriptsh/run_aut_lk.sh"]
-    with subprocess.Popen(cmd, stdout=subprocess.PIPE,
-                          stderr=subprocess.PIPE,
-                          stdin=subprocess.PIPE,
-                          universal_newlines=True) as result:
-        out = result.communicate()
-    return render_template('welcome.html', text=out, json=out)
+    return render_template('index.html', text=out, json=out)
 
 
 if __name__ == "__main__":
