@@ -5,7 +5,7 @@ SCRIPT_DIR=$(dirname "$0")
 
 TEST_DIR="$SCRIPT_DIR/../tests_api"
 
-REPORT_DIR="$SCRIPT_DIR/../reports_api"
+REPORT_DIR="$SCRIPT_DIR/../reports"
 
 mkdir -p "$REPORT_DIR"
 

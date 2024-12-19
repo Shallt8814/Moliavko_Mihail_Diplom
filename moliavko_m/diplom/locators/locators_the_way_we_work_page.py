@@ -14,7 +14,7 @@ class TheWayWeWorkPage(WebPage):
 
         super().__init__(web_driver, url)
     ###
-    btn_pip_up_сookies = WebElement(xpath='//button[@class="vogdprc-button vogdprc-button--accept"]')
+    btn_pip_up_cookies = WebElement(xpath='//button[@class="vogdprc-button vogdprc-button--accept"]')
     ###
     png_1 = WebElement(xpath='(//img[@decoding="async"])[1]')
     png_2 = WebElement(xpath='(//img[@decoding="async"])[2]')
