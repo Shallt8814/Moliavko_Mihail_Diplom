@@ -220,3 +220,23 @@ def test_btl_lear_more_grant_making(web_browser):
     with allure.step("проверка видимости результата по запросу"):
         check.is_true(page.txt_no_posts.is_visible())
 
+
+
+@allure.story("Тест для проверки страницы Grant Making")
+@allure.feature('Тест для проверки карточек грантов')
+def test_btl_lear_more_grant_making(web_browser):
+    page = GrantMaking(web_browser)
+    page.btn_pip_up_cookies.click()
+    x_coordinate = 0
+    y_coordinate = 1500
+    web_browser.execute_script(f"window.scrollTo({x_coordinate}, {y_coordinate})")
+    time.sleep(2)
+    elements_btn = [
+        (page.btn_card_href,"","https://ikeafoundation.org/grants/climatexchange/"),
+        (page.btn_little_card_href,"Read more","https://ikeafoundation.org/grants/climatexchange/")
+    ]
+    for elements, elements_text, elements_url in elements_btn:
+        check.is_true(elements.is_visible())
+        check.equal(elements.get_text(), elements_text)
+        check.equal(elements.get_attribute("href"), elements_url)
+        check.is_true(elements.is_clickable())

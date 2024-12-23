@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d8b3003e-0307-409e-b339-4e645665f47f" name="Changes" comment="any text">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_grant_making_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_grant_making_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_grant_making_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_grant_making_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +122,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_grant_making_page.test_dataset_grant_making">
+  <component name="RunManager" selected="Python tests.Python tests for test_grant_making_page.test_btl_lear_more_grant_making">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="tests_moliavko_m" />
       <option name="ENV_FILES" value="" />
@@ -142,6 +143,21 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_grant_making_page.test_btl_lear_more_grant_making" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Moliavko_Mihail_Diplom" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests_ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_grant_making_page.test_btl_lear_more_grant_making&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_grant_making_page.test_dataset_grant_making" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -171,21 +187,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test.test_any&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test.test_api_users" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Moliavko_Mihail_Diplom" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fdgfdgfhgj,hk.jhl" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_api_users&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -221,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_grant_making_page.test_btl_lear_more_grant_making" />
         <item itemvalue="Python tests.Python tests for test_grant_making_page.test_dataset_grant_making" />
         <item itemvalue="Python tests.Python tests in test_grant_making_page.py" />
         <item itemvalue="Python tests.Python tests for test.test_any" />
         <item itemvalue="Python tests.Python tests for test.test_users" />
-        <item itemvalue="Python tests.Python tests for test.test_api_users" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +310,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734980745249</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="any text">
+      <option name="closed" value="true" />
+      <created>1734986366336</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1734986366336</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

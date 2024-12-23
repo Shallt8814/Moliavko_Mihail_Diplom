@@ -38,8 +38,6 @@ class GrantMaking(WebPage):
     btn_page = WebElement(xpath='(//a[@class="page-numbers"])[1]')
     btn_next_page = WebElement(xpath='//a[@class="next page-numbers"]')
     btn_previous_page = WebElement(xpath='//a[@class="prev page-numbers"]')
-    huge_btn_card = WebElement(xpath='(//a[@href="https://ikeafoundation.org/grants/non-state-climate-action-integrity-research-and-stakeholder-engagement/"])[1]')
-    little_btn_card = WebElement(xpath='(//a[@href="https://ikeafoundation.org/grants/non-state-climate-action-integrity-research-and-stakeholder-engagement/"])[2]')
     ###
     #универсально для проверки седектов датасета
     txt_card_thematic_area_latest = WebElement(xpath='(//h2[@class="grants-card__title h4"])[1]')
@@ -47,6 +45,10 @@ class GrantMaking(WebPage):
     txt_no_posts = WebElement(xpath='//div[@class="grants-archive__results"]')
     ###
     btn_learn_more = WebElement(xpath='//a[@class="wp-block-button__link wp-element-button"]')
+    ###
+    btn_card_href = WebElement(xpath='(//a[@class="grants-card__anchor"])[1]')
+    btn_little_card_href = WebElement(xpath='(//a[@href])[16]')
+
 
 
 
