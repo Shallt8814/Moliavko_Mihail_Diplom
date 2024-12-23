@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8b3003e-0307-409e-b339-4e645665f47f" name="Changes" comment="any text">
-      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_grant_making_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_our_funding_and_governance_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_grant_making_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_our_funding_and_governance_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_grant_making_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_grant_making_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,55 +55,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python tests.Python tests for checking.test_check_box.executor": "Run",
-    "Python tests.Python tests for test_IKEA_foundation_about_page.test_headers.executor": "Run",
-    "Python tests.Python tests for test_grant_making_page.test_btn_elements_grant_making.executor": "Run",
-    "Python tests.Python tests for test_grant_making_page.test_dataset_grant_making.executor": "Run",
-    "Python tests.Python tests for test_grant_making_page.test_txt_elements_grant_making.executor": "Run",
-    "Python tests.Python tests for test_main_page.test_headers.executor": "Run",
-    "Python tests.Python tests for test_our_funding_and_governance_page.test_headers.executor": "Run",
-    "Python tests.Python tests for test_our_funding_and_governance_page.test_png_elements_our_funding_and_governance.executor": "Run",
-    "Python tests.Python tests for test_our_funding_and_governance_page.test_text_elements_our_funding_and_governance.executor": "Run",
-    "Python tests.Python tests for test_our_team_page.test_png_elements.executor": "Run",
-    "Python tests.Python tests for test_our_team_page.test_png_elements_our_team.executor": "Run",
-    "Python tests.Python tests for test_our_values_page.test_links_elements_our_values.executor": "Run",
-    "Python tests.Python tests for test_our_values_page.test_png_elements_our_values.executor": "Run",
-    "Python tests.Python tests for test_our_values_page.test_txt_elements_our_team.executor": "Run",
-    "Python tests.Python tests for test_themes_page.test_themes_text.executor": "Run",
-    "Python tests.Python tests in test_main_page.py.executor": "Run",
-    "Python tests.Python tests in test_themes_page.py.executor": "Run",
-    "Python tests.Python tests in tests.executor": "Run",
-    "Python tests.pytest for checking.test_check_box.executor": "Run",
-    "Python tests.pytest for test_automobile_page.test_searching.executor": "Run",
-    "Python tests.pytest for test_main_page.test_footer.executor": "Run",
-    "Python tests.pytest for test_main_page.test_footer_blocks.executor": "Run",
-    "Python tests.pytest for test_main_page.test_headers.executor": "Run",
-    "Python tests.pytest for test_main_page.test_headers_1.executor": "Run",
-    "Python tests.pytest for test_main_page.test_headers_2.executor": "Run",
-    "Python tests.pytest for test_main_page.test_headers_3.executor": "Run",
-    "Python tests.pytest for test_main_page.test_headers_4.executor": "Run",
-    "Python tests.pytest for test_main_page.test_headers_5.executor": "Run",
-    "Python tests.pytest for test_main_page.test_headers_searching.executor": "Run",
-    "Python tests.pytest for test_main_page.test_main_activities_buttons.executor": "Run",
-    "Python tests.pytest for test_main_page.test_main_activities_text.executor": "Run",
-    "Python tests.pytest for test_main_page.test_main_citates.executor": "Run",
-    "Python tests.pytest for test_main_page.test_main_news.executor": "Run",
-    "Python tests.pytest for test_main_page.test_main_partners.executor": "Run",
-    "Python tests.pytest for test_main_page.test_main_presentable_text.executor": "Run",
-    "Python tests.pytest in test_header_and_footer.py.executor": "Run",
-    "Python tests.pytest in test_main_page.py.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/mike/PycharmProjects/Moliavko_Mihail_Diplom/moliavko_m/diplom/templates",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for checking.test_check_box.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for kL.test_sddfoji.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.test_any.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.test_api_users.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.test_users.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_IKEA_foundation_about_page.test_headers.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_grant_making_page.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_grant_making_page.test_btn_elements_grant_making.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_grant_making_page.test_dataset_grant_making.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_grant_making_page.test_txt_elements_grant_making.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main_page.test_headers.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_our_funding_and_governance_page.test_headers.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_our_funding_and_governance_page.test_png_elements_our_funding_and_governance.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_our_funding_and_governance_page.test_text_elements_our_funding_and_governance.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_our_team_page.test_png_elements.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_our_team_page.test_png_elements_our_team.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_our_values_page.test_links_elements_our_values.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_our_values_page.test_png_elements_our_values.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_our_values_page.test_txt_elements_our_team.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_themes_page.test_themes_text.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_grant_making_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_main_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_themes_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for checking.test_check_box.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_automobile_page.test_searching.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main_page.test_footer.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main_page.test_footer_blocks.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main_page.test_headers.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main_page.test_headers_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main_page.test_headers_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main_page.test_headers_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main_page.test_headers_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main_page.test_headers_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main_page.test_headers_searching.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main_page.test_main_activities_buttons.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main_page.test_main_activities_text.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main_page.test_main_citates.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main_page.test_main_news.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main_page.test_main_partners.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest for test_main_page.test_main_presentable_text.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_header_and_footer.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_main_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mike/PycharmProjects/Moliavko_Mihail_Diplom/moliavko_m/diplom/templates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/moliavko_m/diplom/templates" />
@@ -141,21 +144,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_grant_making_page.test_btn_elements_grant_making" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Moliavko_Mihail_Diplom" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests_ui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_grant_making_page.test_btn_elements_grant_making&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_grant_making_page.test_dataset_grant_making" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
@@ -171,37 +159,52 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_grant_making_page.test_txt_elements_grant_making" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.test_any" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests_ui" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fdgfdgfhgj,hk.jhl" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_grant_making_page.test_txt_elements_grant_making&quot;" />
+      <option name="_new_target" value="&quot;test.test_any&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_our_funding_and_governance_page.test_png_elements_our_funding_and_governance" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.test_api_users" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests_ui" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fdgfdgfhgj,hk.jhl" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_our_funding_and_governance_page.test_png_elements_our_funding_and_governance&quot;" />
+      <option name="_new_target" value="&quot;test.test_api_users&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_our_funding_and_governance_page.test_text_elements_our_funding_and_governance" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test.test_users" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Moliavko_Mihail_Diplom" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fdgfdgfhgj,hk.jhl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_users&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_grant_making_page.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,17 +215,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_our_funding_and_governance_page.test_text_elements_our_funding_and_governance&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_grant_making_page.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests for test_grant_making_page.test_dataset_grant_making" />
-        <item itemvalue="Python tests.Python tests for test_grant_making_page.test_btn_elements_grant_making" />
-        <item itemvalue="Python tests.Python tests for test_grant_making_page.test_txt_elements_grant_making" />
-        <item itemvalue="Python tests.Python tests for test_our_funding_and_governance_page.test_png_elements_our_funding_and_governance" />
-        <item itemvalue="Python tests.Python tests for test_our_funding_and_governance_page.test_text_elements_our_funding_and_governance" />
+        <item itemvalue="Python tests.Python tests in test_grant_making_page.py" />
+        <item itemvalue="Python tests.Python tests for test.test_any" />
+        <item itemvalue="Python tests.Python tests for test.test_users" />
+        <item itemvalue="Python tests.Python tests for test.test_api_users" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734630150274</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="any text">
+      <option name="closed" value="true" />
+      <created>1734980745249</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1734980745249</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

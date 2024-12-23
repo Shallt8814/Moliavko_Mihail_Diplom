@@ -44,11 +44,11 @@ def test_txt_elements_grant_making(web_browser):
     web_browser.execute_script(f"window.scrollTo({x_coordinate}, {y_coordinate})")
     time.sleep(5)
     for elements, elements_text in elements_txt:
-        with allure.step(""):
+        with allure.step("проверка видимости"):
             check.is_true(elements.is_visible())
-        with allure.step(""):
+        with allure.step("проверка совпадения текста"):
             check.equal(elements.get_text(), elements_text)
-    with allure.step(""):
+    with allure.step("проверка количества"):
         check.equal(page.txt_archive_cards.count(), 4)
 
 
@@ -67,7 +67,7 @@ def test_btn_elements_grant_making(web_browser):
     y_coordinate = 2500
     web_browser.execute_script(f"window.scrollTo({x_coordinate}, {y_coordinate})")
     time.sleep(3)
-    with allure.step(""):
+    with allure.step("проверка видимости, кликабельности, совпадения текста"):
          check.is_true(page.btn_page.is_visible())
          check.is_true(page.btn_page.is_clickable())
          check.is_true(page.txt_card_thematic_area_latest.get_text(), "Start Network")
@@ -77,7 +77,7 @@ def test_btn_elements_grant_making(web_browser):
     y_coordinate = 2500
     web_browser.execute_script(f"window.scrollTo({x_coordinate}, {y_coordinate})")
     time.sleep(3)
-    with allure.step(""):
+    with allure.step("проверка видимости, кликабельности, совпадения текста"):
          check.is_true(page.btn_next_page.is_visible())
          check.is_true(page.btn_next_page.is_clickable())
          check.is_true(page.txt_card_thematic_area_latest.get_text(), "Forcibly displaced people lens investing in the greater Horn of Africa")
@@ -87,14 +87,14 @@ def test_btn_elements_grant_making(web_browser):
     y_coordinate = 2500
     web_browser.execute_script(f"window.scrollTo({x_coordinate}, {y_coordinate})")
     time.sleep(3)
-    with allure.step(""):
+    with allure.step("проверка видимости, кликабельности, совпадения текста"):
          check.is_true(page.btn_previous_page.is_visible())
          check.is_true(page.btn_previous_page.is_clickable())
          check.is_true(page.txt_card_thematic_area_latest.get_text(), "Start Network")
 
 
 @allure.story("Тест для проверки страницы Grant Making")
-@allure.feature('Тест для проверки кнопок ориентирования по карточкам грантов')
+@allure.feature('Тест для проверки даун дроп меню датасета')
 def test_dataset_grant_making(web_browser):
     page = GrantMaking(web_browser)
     page.btn_pip_up_cookies.click()
@@ -102,7 +102,7 @@ def test_dataset_grant_making(web_browser):
     y_coordinate = 1500
     web_browser.execute_script(f"window.scrollTo({x_coordinate}, {y_coordinate})")
     time.sleep(2)
-    with allure.step("1"):
+    with allure.step("1 вариант"):
         exp = Select(web_browser.find_element(By.XPATH, '/html/body/main/article/form/div[2]/div[1]/fieldset[1]/select'))
         exp.select_by_visible_text("Agricultural Livelihoods")
         time.sleep(1)
@@ -112,11 +112,11 @@ def test_dataset_grant_making(web_browser):
         exp = Select(web_browser.find_element(By.XPATH, '/html/body/main/article/form/div[2]/div[1]/fieldset[3]/select'))
         exp.select_by_visible_text("A Glimmer of Hope Foundation")
         time.sleep(3)
-        with allure.step(""):
+        with allure.step("проверка видимости, совпадения титла первой карточки, выводимого результата поиска"):
             check.is_true(page.txt_card_thematic_area_latest.is_visible())
             check.equal(page.txt_card_thematic_area_latest.get_text(), "Developing a circular food system in Debub Sodo, Ethiopia")
             check.equal(page.txt_x_results_found.get_text(),"1 results found, showing 1 results")
-    with allure.step("2"):
+    with allure.step("2 вариант"):
         exp = Select(web_browser.find_element(By.XPATH, '/html/body/main/article/form/div[2]/div[1]/fieldset[1]/select'))
         exp.select_by_visible_text("Agricultural Livelihoods")
         time.sleep(1)
@@ -126,11 +126,11 @@ def test_dataset_grant_making(web_browser):
         exp = Select(web_browser.find_element(By.XPATH, '/html/body/main/article/form/div[2]/div[1]/fieldset[3]/select'))
         exp.select_by_visible_text("A Glimmer of Hope Foundation")
         time.sleep(3)
-        with allure.step(""):
+        with allure.step("проверка видимости, совпадения титла первой карточки, выводимого результата поиска"):
             check.is_true(page.txt_no_posts.is_visible())
             check.equal(page.txt_no_posts.get_text(), "No posts have been found.")
             check.equal(page.txt_x_results_found.get_text(), "0 results found, showing 0 results")
-    with allure.step("3"):
+    with allure.step("3 вариант"):
         exp = Select(web_browser.find_element(By.XPATH, '/html/body/main/article/form/div[2]/div[1]/fieldset[1]/select'))
         exp.select_by_visible_text("Renewable Energy")
         time.sleep(1)
@@ -140,11 +140,11 @@ def test_dataset_grant_making(web_browser):
         exp = Select(web_browser.find_element(By.XPATH, '/html/body/main/article/form/div[2]/div[1]/fieldset[3]/select'))
         exp.select_by_visible_text("Sustain Plus")
         time.sleep(3)
-        with allure.step(""):
+        with allure.step("проверка видимости, совпадения титла первой карточки, выводимого результата поиска"):
             check.is_true(page.txt_card_thematic_area_latest.is_visible())
             check.equal(page.txt_card_thematic_area_latest.get_text(), "Strengthening Capability of Sustain Plus")
             check.equal(page.txt_x_results_found.get_text(), "1 results found, showing 1 results")
-    with allure.step("4"):
+    with allure.step("4 вариант"):
         exp = Select(web_browser.find_element(By.XPATH, '/html/body/main/article/form/div[1]/div[1]/div/fieldset/select'))
         exp.select_by_visible_text("Oldest")
         time.sleep(1)
@@ -157,11 +157,11 @@ def test_dataset_grant_making(web_browser):
         exp = Select(web_browser.find_element(By.XPATH, '/html/body/main/article/form/div[2]/div[1]/fieldset[3]/select'))
         exp.select_by_visible_text("Sustain Plus")
         time.sleep(3)
-        with allure.step(""):
+        with allure.step("проверка видимости, совпадения титла первой карточки, выводимого результата поиска"):
             check.is_true(page.txt_card_thematic_area_latest.is_visible())
             check.equal(page.txt_card_thematic_area_latest.get_text(), "Sustain Plus Platform")
             check.equal(page.txt_x_results_found.get_text(), "2 results found, showing 2 results")
-    with allure.step("4"):
+    with allure.step("5 вариант"):
         exp = Select(web_browser.find_element(By.XPATH, '/html/body/main/article/form/div[1]/div[1]/div/fieldset/select'))
         exp.select_by_visible_text("Title A-Z")
         time.sleep(1)
@@ -174,7 +174,7 @@ def test_dataset_grant_making(web_browser):
         exp = Select(web_browser.find_element(By.XPATH, '/html/body/main/article/form/div[2]/div[1]/fieldset[3]/select'))
         exp.select_by_visible_text("All partners")
         time.sleep(3)
-        with allure.step(""):
+        with allure.step("проверка видимости, совпадения титла первой карточки, выводимого результата поиска"):
             check.is_true(page.txt_card_thematic_area_latest.is_visible())
             check.equal(page.txt_card_thematic_area_latest.get_text(), "#LetThemWork")
             check.equal(page.txt_card_thematic_area_latest_2.get_text(), "1000 Landscapes for 1 Billion People")
@@ -182,6 +182,41 @@ def test_dataset_grant_making(web_browser):
 
 
 
+@allure.story("Тест для проверки страницы Grant Making")
+@allure.feature('Тест для проверки кнопки лёрн мор информайшын')
+def test_dataset_grant_making(web_browser):
+    page = GrantMaking(web_browser)
+    page.btn_pip_up_cookies.click()
+    elements_btn = [
+        (page.btn_learn_more, "Learn more", "https://ikeafoundation.org/learnings/")
+    ]
+    page.btn_learn_more.scroll_to_element()
+    time.sleep(1)
+    for elements, elements_text, elements_url in elements_btn:
+        with allure.step("проверка видимости, текста, сслыки"):
+            check.is_true(elements.is_visible())
+            check.equal(elements.get_text(), elements_text)
+            check.equal(elements.get_attribute("href"), elements_url)
 
 
+
+@allure.story("Тест для проверки страницы Grant Making")
+@allure.feature('Тест для проверки кнопки лёрн мор информайшын')
+def test_btl_lear_more_grant_making(web_browser):
+    page = GrantMaking(web_browser)
+    page.btn_pip_up_cookies.click()
+    x_coordinate = 0
+    y_coordinate = 1500
+    web_browser.execute_script(f"window.scrollTo({x_coordinate}, {y_coordinate})")
+    time.sleep(2)
+    page.input_search_for_a_keyword.send_keys("Scaling standardized climate and sustainability disclosure")
+    time.sleep(2)
+    with allure.step("проверка видимости, совпадения текста результата по запросу"):
+        check.equal(page.txt_card_thematic_area_latest.get_text(), "Scaling standardized climate and sustainability disclosure")
+        check.is_true(page.txt_card_thematic_area_latest.is_visible())
+        check.equal(page.txt_x_results_found.get_text(), "1 results found, showing 1 results")
+    page.input_search_for_a_keyword.send_keys("hfjkggjthryturyir")
+    time.sleep(2)
+    with allure.step("проверка видимости результата по запросу"):
+        check.is_true(page.txt_no_posts.is_visible())
 
