@@ -14,7 +14,7 @@ class MainPage(WebPage):
 
         super().__init__(web_driver, url)
 
-    btn_pip_up_сookies = WebElement(xpath='//button[@class="vogdprc-button vogdprc-button--accept"]')
+    btn_pip_up_cookies = WebElement(xpath='//button[@class="vogdprc-button vogdprc-button--accept"]')
     ###
     txt_block_of_video = WebElement(xpath='//section[@class="hero lazy"]')
     vid_hero_video = WebElement(xpath='//video[@class="hero__video"]')
