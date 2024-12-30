@@ -16,7 +16,6 @@ class HeaderFooter(WebPage):
 
     #cookies
     btn_pip_up_cookies = WebElement(xpath='//button[@class="vogdprc-button vogdprc-button--accept"]')
-
     #header
 
     btn_button_in_header = WebElement(xpath='//button[@class="hamburger header__navigation-toggle"]')

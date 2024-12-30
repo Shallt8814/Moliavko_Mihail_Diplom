@@ -14,7 +14,7 @@ from conftest import web_browser
 @allure.feature('Тест для проверки пнг элементов')
 def test_png_elements(web_browser):
     page = TheWayWeWorkPage(web_browser)
-    page.btn_pip_up_сookies.click()
+    page.btn_pip_up_cookies.click()
     element = web_browser.find_element(By.XPATH,'//div[@class="wp-block-columns has-2-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex"]')
     web_browser.execute_script("arguments[0].scrollIntoView(true);", element)
     time.sleep(10)
@@ -37,7 +37,7 @@ def test_png_elements(web_browser):
 @allure.feature('Тест для проверки текста')
 def test_txt_elements(web_browser):
     page = TheWayWeWorkPage(web_browser)
-    page.btn_pip_up_сookies.click()
+    page.btn_pip_up_cookies.click()
     element = web_browser.find_element(By.XPATH,'//div[@class="wp-block-columns has-2-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex"]')
     web_browser.execute_script("arguments[0].scrollIntoView(true);", element)
     time.sleep(10)

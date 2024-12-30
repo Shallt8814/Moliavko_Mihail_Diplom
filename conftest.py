@@ -4,12 +4,14 @@ import pytest
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.action_chains import ActionChains
 
 
 @pytest.fixture
 def web_browser(request):
     browser = webdriver.Chrome()
     browser.maximize_window()
+    action = ActionChains(browser)
 
     # Вернуть экземпляр браузера в тестовый пример:
     yield browser

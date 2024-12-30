@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8b3003e-0307-409e-b339-4e645665f47f" name="Changes" comment="any text">
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_partners_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_partners_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_grant_making_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_grant_making_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_header_and_footer.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_header_and_footer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_main_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_grant_making_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_grant_making_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_the_way_we_work_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_the_way_we_work_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +84,13 @@
     &quot;Python tests.Python tests for test_our_values_page.test_links_elements_our_values.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_our_values_page.test_png_elements_our_values.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_our_values_page.test_txt_elements_our_team.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_partners_page.test_cards_buttons_partners.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_partners_page.test_cards_partners.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_partners_page.test_text_partners.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_themes_page.test_themes_text.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_grant_making_page.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_main_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_partners_page.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_themes_page.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in tests.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest for checking.test_check_box.executor&quot;: &quot;Run&quot;,
@@ -122,7 +132,29 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_grant_making_page.test_btl_lear_more_grant_making">
+  <component name="RunManager" selected="Python tests.Python tests for test_partners_page.test_cards_buttons_partners">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Moliavko_Mihail_Diplom" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moliavko_m/diplom/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="tests_moliavko_m" />
       <option name="ENV_FILES" value="" />
@@ -145,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_grant_making_page.test_btl_lear_more_grant_making" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_partners_page.test_cards_buttons_partners" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,11 +188,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_grant_making_page.test_btl_lear_more_grant_making&quot;" />
+      <option name="_new_target" value="&quot;test_partners_page.test_cards_buttons_partners&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_grant_making_page.test_dataset_grant_making" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_partners_page.test_cards_partners" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,41 +203,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_grant_making_page.test_dataset_grant_making&quot;" />
+      <option name="_new_target" value="&quot;test_partners_page.test_cards_partners&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.test_any" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Moliavko_Mihail_Diplom" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fdgfdgfhgj,hk.jhl" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_any&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test.test_users" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Moliavko_Mihail_Diplom" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fdgfdgfhgj,hk.jhl" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.test_users&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_grant_making_page.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_partners_page.test_text_partners" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,17 +218,32 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_grant_making_page.py&quot;" />
+      <option name="_new_target" value="&quot;test_partners_page.test_text_partners&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_partners_page.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Moliavko_Mihail_Diplom" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests_ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_partners_page.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_grant_making_page.test_btl_lear_more_grant_making" />
-        <item itemvalue="Python tests.Python tests for test_grant_making_page.test_dataset_grant_making" />
-        <item itemvalue="Python tests.Python tests in test_grant_making_page.py" />
-        <item itemvalue="Python tests.Python tests for test.test_any" />
-        <item itemvalue="Python tests.Python tests for test.test_users" />
+        <item itemvalue="Python tests.Python tests for test_partners_page.test_cards_buttons_partners" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python tests.Python tests for test_partners_page.test_cards_partners" />
+        <item itemvalue="Python tests.Python tests for test_partners_page.test_text_partners" />
+        <item itemvalue="Python tests.Python tests in test_partners_page.py" />
       </list>
     </recent_temporary>
   </component>

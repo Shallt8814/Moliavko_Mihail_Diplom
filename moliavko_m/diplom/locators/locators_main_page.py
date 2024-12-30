@@ -107,10 +107,6 @@ class MainPage(WebPage):
     btn_29_news_slide = WebElement(xpath='//div[@id="tns1-item28"]')
     txt_29_news_slide_text = WebElement(xpath='(//div[@class="post-card__excerpt"])[29]')
     ###
-    txt_citates_slider = WebElement(xpath='(//div[@class="slider__track"])[2]')
-    btn_citates_slider_left_button = WebElement(xpath='(//button[@class="slider__arrow"])[3]')
-    btn_citates_slider_right_button = WebElement(xpath='(//button[@class="slider__arrow"])[4]')
-
 
     txt_1_slide_citates_block = WebElement(xpath='//div[@id="tns2-item0"]')
     txt_1_slide_citate_text = WebElement(xpath='(//div[@class="quote-card__title h3"])[1]')

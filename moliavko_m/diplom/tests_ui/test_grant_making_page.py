@@ -224,7 +224,7 @@ def test_btl_lear_more_grant_making(web_browser):
 
 @allure.story("Тест для проверки страницы Grant Making")
 @allure.feature('Тест для проверки карточек грантов')
-def test_btl_lear_more_grant_making(web_browser):
+def test_btn_learn_more_grant_making(web_browser):
     page = GrantMaking(web_browser)
     page.btn_pip_up_cookies.click()
     x_coordinate = 0
@@ -232,8 +232,8 @@ def test_btl_lear_more_grant_making(web_browser):
     web_browser.execute_script(f"window.scrollTo({x_coordinate}, {y_coordinate})")
     time.sleep(2)
     elements_btn = [
-        (page.btn_card_href,"","https://ikeafoundation.org/grants/climatexchange/"),
-        (page.btn_little_card_href,"Read more","https://ikeafoundation.org/grants/climatexchange/")
+        (page.btn_card_href,"","https://ikeafoundation.org/grants/non-state-climate-action-integrity-research-and-stakeholder-engagement/"),
+        (page.btn_little_card_href,"Read more","https://ikeafoundation.org/grants/non-state-climate-action-integrity-research-and-stakeholder-engagement/")
     ]
     for elements, elements_text, elements_url in elements_btn:
         check.is_true(elements.is_visible())
