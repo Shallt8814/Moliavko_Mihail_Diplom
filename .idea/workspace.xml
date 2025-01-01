@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8b3003e-0307-409e-b339-4e645665f47f" name="Changes" comment="any text">
-      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_report_a_concern_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_report_a_concern_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_report_window_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_report_window_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_example_grant_1_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_example_grant_1_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_partners_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_partners_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +83,10 @@
     "Python tests.Python tests for test_partners_page.test_text_partners.executor": "Run",
     "Python tests.Python tests for test_report_a_concern_page.test_btn_concern.executor": "Run",
     "Python tests.Python tests for test_report_a_concern_page.test_text_concern.executor": "Run",
+    "Python tests.Python tests for test_report_window_page.test_btn_report_window.executor": "Run",
+    "Python tests.Python tests for test_report_window_page.test_input_report_window.executor": "Run",
+    "Python tests.Python tests for test_report_window_page.test_logo_report_window.executor": "Run",
+    "Python tests.Python tests for test_report_window_page.test_text_partners.executor": "Run",
     "Python tests.Python tests for test_themes_page.test_themes_text.executor": "Run",
     "Python tests.Python tests in test_grant_making_page.py.executor": "Run",
     "Python tests.Python tests in test_main_page.py.executor": "Run",
@@ -130,7 +132,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_report_a_concern_page.test_btn_concern">
+  <component name="RunManager" selected="Python tests.Python tests for test_report_window_page.test_btn_report_window">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
@@ -175,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_partners_page.test_cards_buttons_partners" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_report_window_page.test_btn_report_window" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,11 +188,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_partners_page.test_cards_buttons_partners&quot;" />
+      <option name="_new_target" value="&quot;test_report_window_page.test_btn_report_window&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_partners_page.test_cards_partners" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_report_window_page.test_input_report_window" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,11 +203,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_partners_page.test_cards_partners&quot;" />
+      <option name="_new_target" value="&quot;test_report_window_page.test_input_report_window&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_report_a_concern_page.test_btn_concern" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_report_window_page.test_logo_report_window" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,11 +218,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_report_a_concern_page.test_btn_concern&quot;" />
+      <option name="_new_target" value="&quot;test_report_window_page.test_logo_report_window&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_report_a_concern_page.test_text_concern" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_report_window_page.test_text_partners" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,17 +233,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_report_a_concern_page.test_text_concern&quot;" />
+      <option name="_new_target" value="&quot;test_report_window_page.test_text_partners&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_report_a_concern_page.test_btn_concern" />
-        <item itemvalue="Python tests.Python tests for test_report_a_concern_page.test_text_concern" />
-        <item itemvalue="Python tests.Python tests for test_partners_page.test_cards_buttons_partners" />
+        <item itemvalue="Python tests.Python tests for test_report_window_page.test_btn_report_window" />
+        <item itemvalue="Python tests.Python tests for test_report_window_page.test_input_report_window" />
+        <item itemvalue="Python tests.Python tests for test_report_window_page.test_logo_report_window" />
+        <item itemvalue="Python tests.Python tests for test_report_window_page.test_text_partners" />
         <item itemvalue="Python.app" />
-        <item itemvalue="Python tests.Python tests for test_partners_page.test_cards_partners" />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735743207743</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="any text">
+      <option name="closed" value="true" />
+      <created>1735746869190</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1735746869190</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
