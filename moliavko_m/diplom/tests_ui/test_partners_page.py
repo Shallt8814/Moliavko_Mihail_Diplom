@@ -2,7 +2,6 @@ import time
 import allure
 import pytest_check as check
 
-from selenium.webdriver.common.action_chains import ActionChains
 from moliavko_m.diplom.locators.locators_partners_page import Partners
 from conftest import web_browser
 
@@ -54,7 +53,6 @@ def test_cards_partners(web_browser):
 @allure.feature('Тест для проверки ссылок в карточках партнеров')
 def test_cards_buttons_partners(web_browser):
     page = Partners(web_browser)
-    action = ActionChains(web_browser)
     page.btn_pip_up_cookies.click()
     elements_links_1 = [
         (page.btn_partner_01_grants, "Show grants", "https://ikeafoundation.org/grants?partner=31404#grants-archive"),

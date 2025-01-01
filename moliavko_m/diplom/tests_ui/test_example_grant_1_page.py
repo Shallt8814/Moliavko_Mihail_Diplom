@@ -36,7 +36,7 @@ def test_main_text_example_grant_1(web_browser):
         (page.txt_none_state_climate_about,"This three-year project aims to provide an overview of the status, progress, aggregated impact and improvement potential of climate action by non-state actors (businesses, financial institutions, subnational governments). It provides an essential contribution to the overall assessment of climate governance systems essential for guarding overall accountability of subnational and business action.")
     ]
     for elements, elements_text in elements_txt:
-        with allure.step(""):
+        with allure.step("проверка видимости, текста"):
             check.is_true(elements.is_visible())
             check.equal(elements.get_text(), elements_text)
 
@@ -73,7 +73,7 @@ def test_partners_example_grant_1(web_browser):
     y_coordinate = 700
     web_browser.execute_script(f"window.scrollTo({x_coordinate}, {y_coordinate})")
     time.sleep(3)
-    with allure.step(""):
+    with allure.step("проверка видимости"):
          check.is_true(page.txt_partner_card.is_visible())
     elements_btn = [
         (page.btn_all_partners_grants,"Show our grants","https://ikeafoundation.org/grants?partner=31570#grants-archive"),
