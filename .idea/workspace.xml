@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8b3003e-0307-409e-b339-4e645665f47f" name="Changes" comment="any text">
-      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_partners_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_partners_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_header_and_footer.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_header_and_footer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_main_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_grant_making_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_grant_making_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_main_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_the_way_we_work_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_the_way_we_work_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_partners_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_partners_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_partners_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_partners_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734986366336</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="any text">
+      <option name="closed" value="true" />
+      <created>1735554928874</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1735554928874</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -56,47 +56,53 @@ def test_cards_buttons_partners(web_browser):
     page = Partners(web_browser)
     action = ActionChains(web_browser)
     page.btn_pip_up_cookies.click()
-    elements_links = [
-        (page.btn_partner_01_grants, "", ""),
-        (page.btn_partner_01_articles, "", ""),
-        (page.btn_partner_01_site, "", ""),
-        (page.btn_partner_02_grants, "", ""),
-        (page.btn_partner_02_articles, "", ""),
-        (page.btn_partner_02_site, "", ""),
-        (page.btn_partner_03_site, "", ""),
-        (page.btn_partner_03_grants, "", ""),
-        (page.btn_partner_03_articles, "", ""),
-        (page.btn_partner_03_relises, "", ""),
+    elements_links_1 = [
+        (page.btn_partner_01_grants, "Show grants", "https://ikeafoundation.org/grants?partner=31404#grants-archive"),
+        (page.btn_partner_01_articles, "Show articles", "https://ikeafoundation.org/stories/?post_partner=31404"),
+        (page.btn_partner_01_site, "http://aglimmerofhope.org/", "http://aglimmerofhope.org/"),
     ]
     page.png_partner_01_logo.right_mouse_click()
     time.sleep(3)
+    for elements, elements_text, elements_url in elements_links_1:
+        with allure.step("проверка видимости, кликабельности, текста, ссылок"):
+             check.is_true(elements.is_visible())
+             check.equal(elements.get_text(), elements_text)
+             check.equal(elements.get_attribute("href"), elements_url)
+             check.is_true(elements.is_clickable())
+
+    elements_links_2 = [
+        (page.btn_partner_02_grants, "Show grants", "https://ikeafoundation.org/grants?partner=34464#grants-archive"),
+        (page.btn_partner_02_articles, "Show articles", "https://ikeafoundation.org/stories/?post_partner=34464"),
+        (page.btn_partner_02_site, "https://bomaproject.org/", "https://bomaproject.org/")
+    ]
     x_coordinate = 0
     y_coordinate = 700
     web_browser.execute_script(f"window.scrollTo({x_coordinate}, {y_coordinate})")
     time.sleep(5)
     page.png_partner_02_logo.right_mouse_click()
     time.sleep(3)
+    for elements, elements_text, elements_url in elements_links_2:
+        with allure.step("проверка видимости, кликабельности, текста, ссылок"):
+             check.is_true(elements.is_visible())
+             check.equal(elements.get_text(), elements_text)
+             check.equal(elements.get_attribute("href"), elements_url)
+             check.is_true(elements.is_clickable())
+
+    elements_links_3 = [
+        (page.btn_partner_03_site, "https://www.unicef.org/", "https://www.unicef.org/"),
+        (page.btn_partner_03_grants, "Show grants", "https://ikeafoundation.org/grants?partner=31370#grants-archive"),
+        (page.btn_partner_03_articles, "Show articles", "https://ikeafoundation.org/stories/?post_partner=31370"),
+        (page.btn_partner_03_relises, "Show press releases", "https://ikeafoundation.org/press?related_partner=31370")
+    ]
     x_coordinate = 0
     y_coordinate = 7000
     web_browser.execute_script(f"window.scrollTo({x_coordinate}, {y_coordinate})")
     time.sleep(5)
     page.png_partner_03_logo.right_mouse_click()
     time.sleep(3)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    for elements, elements_text, elements_url in elements_links_3:
+        with allure.step("проверка видимости, кликабельности, текста, ссылок"):
+             check.is_true(elements.is_visible())
+             check.equal(elements.get_text(), elements_text)
+             check.equal(elements.get_attribute("href"), elements_url)
+             check.is_true(elements.is_clickable())

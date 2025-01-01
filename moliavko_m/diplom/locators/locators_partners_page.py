@@ -35,7 +35,7 @@ class Partners(WebPage):
     ###
     btn_partner_03 = WebElement(xpath='(//div[@class="partner-card__content"])[158]')
     btn_partner_03_site = WebElement(xpath='(//a[@class="partner-card__url"])[158]')
-    btn_partner_03_grants = WebElement(xpath='(//a[@class="link"])[216]')
+    btn_partner_03_grants = WebElement(xpath='(//a[@class="link"])[214]')
     btn_partner_03_articles = WebElement(xpath='(//a[@class="link"])[215]')
     btn_partner_03_relises = WebElement(xpath='(//a[@class="link"])[216]')
-    png_partner_03_logo = WebElement(xpath='(//img)[37]')
+    png_partner_03_logo = WebElement(xpath='(//img)[315]')
