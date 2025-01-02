@@ -5,9 +5,407 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8b3003e-0307-409e-b339-4e645665f47f" name="Changes" comment="any text">
-      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_report_window_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_report_window_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_report_list_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_report_list_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checking.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/0083e069-c6ae-47ec-9336-7809087d257a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/00b1d96d-6dad-4648-9cc1-87f75e42c97b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/0290b8b3-8fa2-43ab-a3ae-625dc3ebb977-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/032a2bf2-a532-4510-bb89-88d7ca7f8d8f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/032c4619-7528-44cb-b0cd-beb300d21a60-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/03d21f57-b1e5-4294-8563-3802a8a7b8fb-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/042079f4-1f12-44a8-8ab7-e3be2ed571b5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/04afe8bc-8044-4e93-a67a-f406c5589616-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/06ac8de6-1d63-45ca-bf31-b97ed2e238d0-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/06ed4d29-0afc-43b4-8d1a-f9b40ee172fc-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/070acf01-7df7-4bcb-8089-80a470557bad-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/0827b2a2-90db-4708-8de8-babfc5d6867c-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/08b67429-ae15-485c-816d-b569012020b3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/08c7c709-019e-4a77-91ae-984b24490727-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/08c7c70e-2885-4fda-aa57-cb9a4c3bd1e0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/09c96039-23b8-4a65-b46b-0aa58e80b7c0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/0abc2f6c-5c57-4297-89fe-313b5cd41550-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/0ae656d4-b933-4074-b644-a0d38a5a66ec-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/0ccd14db-131d-4718-af33-ccc0fd646596-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/0f1017c5-69bb-41b3-b1ff-dc107a55e3a9-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/11debd9b-4cca-4d9c-98f4-c61d34a09467-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/120320f0-ad46-49c9-b18e-adfcd84efb72-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/13857831-7faa-4317-927e-2d9c84fd064b-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/139f62dd-d09e-417f-93a2-d393129dfc3a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/153c0961-216a-41ed-b8b6-87af4bf47fdb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/16f96928-67e0-45fc-a6bf-d937173f3f4a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/18e26cbc-e1d8-419e-9812-85b7e9f09c18-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/1940170f-10b5-4033-8207-ed6938bd8624-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/19a654aa-2c4c-482a-b8bb-098b3418469e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/1a0f81c1-b054-4092-9a0e-b19b3f02dc0e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/1be4e7cc-645b-4baa-9c56-dd3f1f390ba1-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/1c085a99-7542-47a7-b56a-0fb2f921afe7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/1d0cc81c-e981-46cb-b92a-d979a46f291d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/1d4274b6-079f-40ca-a6fb-89a8f4124d1d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/1df8632a-ab73-4bc6-943b-b35ab3b03b78-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/1e0784ab-c838-41a6-89a2-db4d182f6aac-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/1f42c1ee-27bd-44c2-97fe-dd0432ae3bdf-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/1faba95e-41bf-44bf-a1d1-744d19c86dc2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/20708cc9-e601-4462-b379-0f553078481a-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/209c844a-8dc6-465e-b8d0-ffd4648120a2-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/217b7621-bf35-4e97-9a70-806cc192533b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/272fa061-0a31-42b1-b526-cd9be24490d0-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/279e87e0-f9d8-452b-97d7-e788a11acbe5-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/28a832e9-39f4-44fc-898a-16dff0d06c50-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/28eccb98-afca-4600-8841-9f21c059eb0c-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/29cdfb25-2d9a-461c-9647-71439fec1fd6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/2c6ea31b-d18b-46b1-b404-5577f33ba29a-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/2dc567ad-3ab6-41e7-bb16-15469606f63c-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/2dd166fd-7a8c-4e4e-9fed-9935ffcdf0e7-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/2e0eb8a6-1178-485a-8eb9-7fd2ab14533e-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/2e17673c-32ab-45e3-b728-e599e664e427-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/2e9dd5f7-ef5b-4cf0-9160-fdc96289ccf8-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/2ebc9406-5b5c-4d85-a426-2c699c3fab4c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/2f14367b-8e86-4034-b516-45db53a6b60c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/2f240659-e300-4017-ab35-e82d802fc6f4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/2facdd57-9a89-43a4-8baf-f5b0734d8ee8-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/30b4dfe0-27e4-4298-9533-8ae3db73c268-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/30f9c9cb-a91a-4b0b-9e74-1f15ef3147b9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/3154bfd1-9f08-4aaf-adc2-4ca9d7fa468f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/31cecbca-0103-4d03-9ab9-dffc237f28ea-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/32454f9f-2e92-4b84-8229-96d208667581-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/32966513-791f-4d0d-916e-0b7e5f59710c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/3337e760-f8e3-4744-b458-cf5d38fa74b4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/33c973ed-1953-4a59-8b42-99b78e743ef0-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/33c975f8-2a1f-4ae6-81bf-5c590950e3eb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/343cd182-148f-471b-88a1-2ac782540eb7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/34c0a6ba-e63c-4c91-af81-e6c51156cb78-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/352f840c-d5a9-4066-8554-36df9793169d-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/3724ff08-216c-442a-96c2-3a2a88af1d0e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/37e7e1c7-22ba-4d1c-a5c8-ac9bdc20114d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/37f80253-ad71-4f4c-8413-dcffebc65947-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/38d700f5-87f8-442f-8ed8-195ed4703a93-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/3904cb91-71f7-4939-ad42-ed24e2bca468-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/396dbe69-0509-4415-9640-6c7fcb0ec2b8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/3ac7af4e-ef7f-4a8b-811d-cb8532f06282-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/3b53db75-47aa-47f7-9bc2-7ae6477b3957-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/3cc7af72-d342-4fb5-b72c-c052199915e6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/3d1f01d1-cf9e-4f54-a819-a40f1fbefc10-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/3ec6caca-4c95-4a59-bdd8-bfc0f4aea50f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/3f2a20d1-e40a-4e41-b2b2-522445c3fbc0-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/417f843d-1e38-4f10-8b6c-441f25e0c63b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/419efe71-bbb9-4927-a8e3-1be89ba15da0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/4203d098-0c52-4082-b9d7-d91c1ea36621-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/4252761a-d737-4a52-afb0-e76f129ef0b4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/42bed03e-160e-4093-a732-4d7479c2b98a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/42c2fce5-e7ed-4475-9175-9d02f3a58ddf-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/431656e9-7336-46a7-8e9b-5a31ff0af217-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/43847841-016e-461f-8816-619af4092367-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/447aa020-b6cd-4ced-9874-521bb68459d5-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/44eff358-c26a-46b1-8889-bbc91a6f5521-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/459bfc44-22b1-41f6-9191-8ad1ae44a839-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/46766b82-85d4-403c-b1b1-96bea82062f5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/46c514d5-d1a4-4105-9185-ec3ec22fbe39-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/47968929-756d-48c3-b60b-efd35e250c08-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/4819e69d-8e6e-49ad-be9a-171eee6c979d-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/4893c2ff-643d-4877-b6c7-2b3287890674-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/491c51b2-dead-4246-8520-e094d81e2b33-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/4a1eab22-1f23-476c-a556-1a9683989079-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/4a5d56e9-74be-4c83-bc52-1cdd6cc644cf-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/4a5f69bc-fc8c-4289-8bbf-da92ac14c993-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/4ae5e961-9e7e-4393-b6f4-114f3a2ee1ce-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/4afcb121-3c4f-4bf6-962e-12d221ba25d8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/4b03917d-5adb-4d7e-b59d-8f082afcde66-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/4b6f4cfc-5c87-457a-b2d3-15a84a6809fd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/4d1ce063-4e74-4e60-9603-8c946dda5bf7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/4dee3fa1-d5f0-473f-90ad-ef777e18f482-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/4e1f05a3-fc40-49c1-bf23-a0c5e3c18b76-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/4e3ec200-0dc2-4f76-a6c1-1006a9d8383b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/4e4e22a4-3bf0-49b6-9c81-f9c4fb108ad8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/4e4f2b76-cf66-4bb8-b4e8-b45e37ef6eda-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/50930bfd-d7d2-4aef-8d3f-eb5c7cab799d-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/514e77b2-b677-4a69-b77e-0a162711451e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/5184be2b-bcfd-437e-b338-4bf5ffbbbd3e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/545a9dba-2047-45cf-8440-2ddbc83b6e76-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/54d80598-d766-4d29-9704-5cf8c0800e68-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/5500f1ed-9278-4160-af8e-1dcc57ba80c3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/55918db4-7e0b-4aef-a92c-4ecf0c4529b9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/5689834a-8ae0-4684-975f-44cd6fa86f2b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/568a4a76-abe3-4d89-ba75-67756bb818c7-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/5800f5e7-2e73-47e4-8e45-95fa707b3379-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/58aee46f-a457-4f5e-b412-6a0182fe8267-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/59094dd2-1275-4d4e-b0d8-e2be9524b3ca-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/5992f095-320d-44a3-b3cc-f1250cce0da1-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/59cac78b-08b8-43c1-bbfa-a4262b0f44d5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/5a9f1fe3-08bd-4bea-b253-1d942c15ff00-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/5ab0da84-6e09-4d92-9e33-3cd012ca27e0-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/5b11ced7-1f72-49f1-93e9-8c461f0ca3db-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/5b349663-5dec-4703-9ebc-ae1509513afb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/5b5b6f37-be71-4773-b79b-5949aa00b8a9-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/5f1a76f4-e796-4410-bc5b-42c9a2155ef7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/5f2efcb8-aab4-4575-bf56-e88020dab471-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/5f67ac2f-2205-44ab-8f6a-6e43fc0f34f8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/606cbdb9-ae96-4822-b0a9-c597b8703d6c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/60f0d7a0-67c9-49a9-9531-cb2c31ad2297-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/61585b87-6175-4e27-9b82-4a21d2cfcbcc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/61f4e885-1308-495b-ae05-a9f32e33e725-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/62456bbe-b032-402e-9132-6666435633ce-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/6246c00e-012f-4438-8052-b505745eb8e8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/62ea1e06-1854-4257-8cee-c10844d56ce0-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/63c19096-7ad2-4fae-a9ed-e94dfd34d104-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/6418772a-4f80-44d4-b5be-cc86adbbe6af-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/64227da9-bde7-4b44-8c27-1a108131a847-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/6472cc8d-08d9-4f19-b522-7d5e41a7729f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/64ca1204-45ec-4130-89a4-8252281f2202-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/654e2eb7-6afd-4f70-805f-b380ec15391d-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/661bd8d7-3271-4425-b2ba-62581ada5f49-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/66e34763-e611-4a69-8a5f-9e64ea1a1f94-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/672e1acc-8f7d-4130-b24d-4464ee70bc79-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/67b46316-94d4-4966-849e-a1df9cd354a3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/6867d28a-7e3d-4401-aa6e-221c0a73bbec-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/68dbcb79-f689-4b9e-92e8-e1000149dee0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/69747c8b-5480-4e79-80f5-4688d8b61470-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/69d9aa88-f05d-4a14-b515-0a4013bc0409-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/6a460c8c-9663-414f-9272-3960ba5676eb-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/6acd11a4-57f7-44ed-97a6-dc102dd76d4d-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/6b484653-0c5a-437b-83a9-cda222694f42-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/6b76cd69-59d6-48ed-80a8-e5933d20b036-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/6b8c72c8-e67d-4728-a2f8-11b468cc7524-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/6bef6a3f-4120-40ad-a29b-bdf7e552f5ae-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/6bf51d47-ec58-4249-91cf-f33711872f23-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/6d123ed7-befe-41c7-b494-2d6a7cb57ca6-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/6ecbffff-c701-4e8e-90b3-c02907ee15d6-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/6f215aec-a816-462f-9a0d-0c61e6f7a4ca-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/6f23b164-de0e-4607-a590-7aa650519abb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/6fce217c-ee41-4940-ae30-2bd200f80813-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/7014eb0b-8559-42fd-a65e-fbc2c068857d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/704e5841-557c-4a0f-bee2-7ad6a02b52f6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/729763b3-9163-4a2f-b703-3d7e848572da-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/7399d88a-5c0c-4060-b0f6-02158467b80c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/747594a1-727e-4423-8064-8c60f191ccd5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/749d15dc-05ba-470c-9b3a-7f3b08210708-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/7584f404-dd78-4a7e-b78a-d45f28e2b1f9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/75f66900-51e4-454f-96e6-e2451fe47ac2-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/75f6a1c7-66e6-4626-a633-987c4f40a193-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/76cc8062-0570-4886-9cce-67edc3151c65-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/772af41b-bf8c-4fb6-ab8a-6da594f1b768-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/774a2796-99a2-495e-9389-3968342fe8cf-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/77b38e0c-6dec-475f-88c3-ed5ca4fb2bc0-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/77d4ef8f-9efa-4bc7-894a-8746f452411c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/789c85d7-545e-458e-a658-bdc40eee94ba-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/7b522758-0672-4566-ab49-c65eabbc1ea1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/7b8e528a-d593-49ea-8e3b-db26d94ce8aa-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/7bea8ba9-6e42-4ba0-b5b7-a3781e285afc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/7fb3b3b6-c934-4627-88ed-66a9376dcf80-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/7fceaaae-18fc-4e60-8c16-a02810fb9178-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/801eebe2-3fa1-476f-ab86-94e937bcbd80-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8086f785-be3b-46ca-9dab-84213a035131-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/81fd1ff1-6948-438b-b370-12cd44f8cbc2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/829704cb-4377-4bfb-86ec-22d737c59df6-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8342b879-e948-45db-9816-6cb8346ec0f5-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/836884ae-891f-40c9-8223-4737ffbb1113-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/83c5d13d-bebc-4fd6-b623-2d823d0261ec-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/83f1de01-296f-4724-8171-489f77326e64-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/83fe6ddb-7ca4-4fca-8b85-f7a8509199b2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/843eccc9-4795-454c-949e-25bf619fadd0-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8469693e-50c0-4090-be04-bbc40b7ddaee-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/84e2e37d-493a-40bb-88a9-19e6c63b17ed-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8520e7e4-91e6-4932-a110-e92a489f1f50-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8529b336-d7f6-43f2-9fb9-7803832c3a1e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/856f73cd-3d8e-4c39-9036-5d468066e131-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/863435e3-eb94-4c06-8566-8a6cacc2fb8d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8658887a-79c5-4465-9238-59e842c47761-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/86597e4a-9367-469c-a463-db610d339c6c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/87995541-b558-42fe-8450-c27a35b769e7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8843d370-c08e-4cba-b31e-9455fe39100e-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/88dd89ae-c62e-4343-82d8-4d16cdd42cfe-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/89611b29-4f39-4b51-9d6d-535d937e6055-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/89ff18c9-6240-4cfb-96fc-2e929ab00413-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8ace15dd-4800-4d8a-9767-8db050493462-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8b832252-37f3-4019-9fe4-f6615c35e02d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8bd2264b-23cd-4e6c-b3f0-e854a9944f45-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8c51911c-17bf-4b07-8e87-9323d4f755cc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8c78c020-2d1c-48d9-a431-c1ec4b0afc56-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8e0ffac8-a2b8-4f54-ac84-1f3009303080-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8e12f40f-3915-449a-95c4-9d0d6020c9b5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8e2c8fa2-419b-4fcd-8b81-57a81c78093c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8e7f6a2b-70b6-4c3e-85c0-87ca5d82991e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8ed244f5-9d37-4eb7-9fd5-f31fedd82d37-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8f6a6533-f868-4770-9627-e1096050d5e3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/8ff46a9e-8b4c-44c7-8652-51cbe8b050b3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/9052a259-e440-44bc-a05e-cecbb9ff4173-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/90ee554d-1e5c-4169-b208-3e2d36158438-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/9106cda1-fe0c-45d6-acf1-c5aeb4d91bbd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/92990b61-3191-4609-b3a1-56c7b912a4f9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/929bd9b0-ff41-4cd0-a2b8-34547096f28b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/9441980d-1fb8-4987-8791-dbd398c0053e-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/957db0b7-5ba9-4170-8ee5-2822480e15f1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/95a18a3b-9ccf-4641-b44c-0327e5d0ab0a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/96b6226f-b58e-49fa-85a8-ddfe541b55c6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/977e0051-7d5c-492e-a5b2-9c3281ab2d1b-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/97e7b2b8-a2b6-44d3-9e2e-8cfacd5a1345-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/980869cf-1f0e-49ce-bf41-47c151b900c3-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/9973f312-8897-47d5-b4d5-76357bb1045c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/9a9ac671-b79b-4cec-aa1e-1c8c500cf833-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/9a9e5f4a-807f-43d7-82a9-e54398b1e397-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/9b43f41b-420c-4e67-945f-066124eb2aa0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/9bfc37b2-1edc-46de-a8e5-15e675baba11-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/9fd89551-2f8e-4128-9964-d1251a7e45fd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/a0bd2afb-5aa5-4647-9a3c-36cd96063b71-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/a127c0cc-a6fc-4e1c-a0a0-8f8a1ac65c0d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/a1c4178a-f254-47f9-ab94-72e9c919d38c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/a3396d7f-22f2-434e-aae2-342937c5e0dc-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/a3571edc-fbe2-42ae-b2e7-dcb84ba1b362-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/a40873db-0901-4e41-bf34-9984b074ad96-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/a4fb48b3-5a4c-474f-a3df-c2ff6917ac8c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/a53f380d-7485-4a11-a96e-07974b32d3f3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/a56346a0-32d1-4200-b53d-250f8b030633-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/a7c93134-3747-4430-9c06-f73eb1f3b6fa-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/a7dfbdda-d5d6-4d9d-b771-17ad27f30ace-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/a95c7e88-6af2-4e11-adb2-7267fd6db6c7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/a9924c34-f0f9-481d-adc6-b4848a72cc8c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/a9dca3cd-e0ce-4fa1-b652-d5b769a487e4-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/a9ea10e5-dc61-45d5-a5e3-e78abb206f6b-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/aa1695c5-fde9-4a6b-ad25-a635f8ead81b-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/aab137cf-67a6-4bb4-8514-e45d0c6296cd-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/aac8f841-3fa4-4d2e-8ce8-0ecd7745699b-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/ae2f0fdb-2015-4bc8-9510-c389c1db6946-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/ae50544e-bad9-42e8-baef-8f5d817b2ad3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/aeed1259-a814-4e1f-b634-6e6891550c44-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/afbbc1b3-bee5-4a37-8821-e1617b0db0d5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b080e9da-2886-4c22-b099-28a21ab64d36-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b0838fa8-a0a6-4ef3-85d4-235bc26a3a24-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b0ecdbe3-a14a-4581-a7b1-43b58733aa85-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b11fd062-63b3-419d-9529-e7089081d283-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b28c964e-bdfd-4104-8426-34fd2ccc12a3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b2a55f70-b2cf-4b9a-ab1b-214dc919cf06-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b2be9cd8-f8a4-48a4-b0ed-b4556d096268-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b3a15137-5a45-4509-b73d-231a9a44d5d9-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b3cea4b1-bb9d-4029-b0a4-0465f9cc2dfc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b3de0961-47e2-4fd4-aa36-077ab3762e61-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b6aa21d4-83ed-4225-ad84-030e51ce12d3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b6aaabc3-3971-4076-b81f-496cff55d71b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b77eb01f-82d2-4366-8222-b16f44d60ee4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b87222b5-5c98-44b1-8869-472268f1a1b4-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b87423a8-cf0c-4368-abbe-cf567df84faa-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b90ea672-cc62-4070-a9de-8ac9575c6002-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b93086dc-f40c-4689-a04e-4a46aed019fc-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b93b3f82-7c92-4440-a870-80e9ee4159c8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b93d243b-f829-4b46-9fde-994c0d7e096a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b95c0b69-4ca2-4c3a-a1cc-b15ffd4a5797-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/b98b802e-cb77-4964-8af4-698ee7a11b93-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/bb3d8179-0d35-4378-9da7-314db26c7b1c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/bb3e50c4-1119-4a19-8a31-f2a60ea3bd48-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/bbc0707c-de88-4c9f-b4ac-1444826eba66-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/bc315872-f021-4e2f-a4bb-f317ba833397-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/bc9e30f9-bf1d-4003-b634-9b74576a3f04-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/bcdb29b8-e4ec-4b9e-85a4-5b44910e5944-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/bddd8ae2-367f-4003-aa52-3487bf708111-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/bedec6d4-26ad-4c74-b91d-03c4d8450ad1-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/c02d5efb-20e2-42fa-b3eb-25c4d8455567-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/c0387a3d-c439-4058-96d8-aeaa59a6f3db-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/c0fc1058-625c-4dab-a9b9-5dd62c31a9df-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/c1090670-454a-439f-b2e1-fc742b4bc61a-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/c29ebc4d-bb7d-4e4e-bf55-723cca84d60c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/c2e922ef-97ea-4e4f-8663-3a281c05da02-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/c32b10a8-7d0e-482e-8bbe-fe706587bbff-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/c3827e16-d617-477b-b598-6aaa71b5885b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/c4364351-11a7-4a72-82a5-010c9fa001de-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/c74dcbbc-8b05-4c73-997a-7f2d1ad2b36a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/c8eeebc8-5ce2-42bf-861f-709f903b9740-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/c8effa6e-6a71-44e3-ac53-82f390f5523b-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/c9c45639-78be-43a0-a82a-add6969ea5b8-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/cb6d69df-5d4a-46eb-9ad0-6d64bdb320fa-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/cca4f297-7eee-431d-a5f4-3fec1f74bc8e-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/cd7862b1-6ec1-4880-8cca-c5d1766421fe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/cea8ae08-99c5-43b6-bb7f-d04678858563-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/d17cfaad-e5d6-436a-8123-4875ee857c9c-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/d2560af4-eba9-4c80-8ee3-1b3c066229df-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/d26058bb-0f3c-40b2-b628-2317fc8e1bfa-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/d319d1f0-36e5-49c7-bd98-e10383b3bcd9-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/d5438d4a-d33e-465f-9d5a-3f3f3ed76938-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/d54eeb54-95aa-43b3-aad0-0ceda4ec749f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/d5ea603b-8abf-4dec-9ef4-0b6e1fe4aae3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/d63d9b42-bbdd-493a-a351-6f0e48bb7dda-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/d655aba9-1e76-42f4-9c8e-98365317a56c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/d68b7c75-0dd6-45df-b375-022811071124-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/d6f59d24-edb8-43d9-8cbc-9ea1ddbbbf02-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/d70c00b7-c9c7-42ba-83f5-d781adac2314-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/d83b9995-131a-4ce6-af3b-145fa3b8d277-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/d89216a8-97cf-42ca-8589-4803cdd89405-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/d9628edd-f1ab-4430-b1ca-9711f2975bd3-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/da82ac0d-397e-4236-ac43-0bd14f16cd7b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/da872ce3-39ac-461b-9ebc-dedfb84925b7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/da87b5d1-624f-484d-812e-2ccd79a14a4a-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/daa1cd26-b16f-4586-b528-f5222512c4d7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/daa8a375-e7ee-4235-b7f3-e4ada7274485-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/db32a9d1-860d-4f6f-9765-e3264f4394da-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/db786594-1a1d-43ed-a2ae-ef6683ecee6a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/dce9a873-8a32-443f-a5d1-6c7824543e73-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/dda633e0-0409-4b03-bb44-df75786cdd3c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/ddd8b25c-80d4-4820-9223-63ac70e7ab70-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/de98d396-7978-420e-aff0-6caf1fcb8627-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e0390def-6b3d-46f2-8597-885a96c3b877-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e05f46b4-5620-4d62-98b4-8db560edd719-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e072bb71-6c48-4681-bc62-1f2fa827526e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e1531ffe-3141-447c-a335-2657c5cc9891-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e195f774-a0dd-4ee8-9da4-83db52e45046-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e196104c-143a-4249-b5e6-a204363c91f7-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e227455e-0555-4ada-aeeb-639e2e31ffdb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e4aa9bc6-855e-4fb0-bc0b-540d10b1582f-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e555765c-0f8b-4481-8dfd-70a4ba6a13be-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e58d4e73-46ac-45ee-88bc-5d0f2d396556-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e59e697a-da65-43eb-a199-d8faadc2e58f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e5cc51a7-a407-45ac-9b9f-4ec1964e5c90-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e6e8e0df-c8e6-4765-8a81-b41ed5f6657f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e71a1c92-de06-4d4f-9274-e4870959445d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e74a58e2-b722-47c0-9927-3fe32ac052a2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e7964d89-46d6-45d3-97a6-d09e392b1c2d-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e7d3d42e-abae-488e-9631-cbe869f752f9-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e8599256-7778-40bc-b03a-cfbd728a3ea0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e951481e-f145-4c38-90ec-efc9d5ef269e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e99e31e4-4143-45cb-a9cf-28e16b944d4d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/e9dd2a6d-891e-46b2-bd28-8283eff311d3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/eb011b35-d337-4cf9-9ef9-1efa59a90bc1-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/eb308889-4c7f-4b3f-a5f9-a0228c76aa6c-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/ed10af80-29a1-46a8-baca-48c0e76640d2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/ed506029-1440-4a3b-b040-761c0d845067-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/ee3b98b8-a339-47c7-a027-868df9286045-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/ee64cc32-6a80-48da-8128-49654e3db29f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/ef761b5e-ad83-4f60-b7ef-28122d966a30-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/efa7ea8f-922c-4a80-9c4a-b28a51a5b41a-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/f05ea73f-f69c-4329-8fe3-a664d8abf1a2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/f1672688-2806-4f04-acc8-5cef49d94c5c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/f409b0a5-e2bb-4695-a523-e9e7ee3f6569-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/f57324fa-1346-4d88-9fd3-add89aea22fe-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/f6057452-f40e-4286-9862-9ec83d0a304a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/f6c33aad-4389-4c42-b734-5d32192de3de-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/f7e10980-6a33-4986-a2fa-1112adcbd0a7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/f851a50a-aeeb-4e41-aaf9-bf55cc09cd11-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/f86ea2b0-0b58-4d82-a7ac-5cc154c74d4b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/fa648263-fed0-4e89-a151-76d9646bcd62-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/fbf712e2-de48-4064-b893-48e3b9294b4e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/fc0bf7d2-3112-460f-9bb3-ff50add730dd-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/fc6cebc2-0410-4721-8ec1-b874551f6ba1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/fd0fe6da-2f69-4809-9e75-e3f6214448dc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/ff80fb6a-2a32-4d11-b4cd-7ff96c4536cc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports/ff99f72c-6fca-4ebd-93c7-eff92c1b6f90-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/0a9c3697-4ac4-4172-937c-036e22c381b4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/18df8bc1-8de0-4b1f-94f1-92872d375450-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/2b8ab10e-f309-4a24-a94e-9087d5b16963-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/3825b0bc-b0a7-4c1e-8144-35a7ef597f7a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/39715906-54e1-42cf-853a-4f2117648f37-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/463fe454-e0ec-4ab8-af2c-29fc0e028b2e-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/49fec4d8-9adc-4199-8985-46943ffef7c7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/4c2f17d9-5cfa-49f9-903e-68ffc5c1f6ae-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/5525b77f-5bb3-41d6-a1c7-b99c8971d999-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/56024b99-b740-43e6-8849-ee1c7b93bed6-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/5e6e084b-87b9-4966-9451-41a589e6750f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/71556121-b6e2-4759-9074-2394310fbe04-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/8cd348fd-8d28-4a2d-8dd4-5e613f5ed1c9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/9226cdda-e107-44e1-80a4-501046f1bb7f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/bcc56f54-ea05-42da-bfe5-adf558fa1278-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/d241349c-271d-421f-85e0-9ce9763911f4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/d602d1ae-10c6-43e6-a7f3-34e6861b1f0c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/f540b14d-8107-4b17-91b2-b84d04a4f68f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/reports_ui/f89e5bd1-e0ac-4cd0-85fe-3310d4da733c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_partners_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_partners_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +468,7 @@
     "Python tests.Python tests for test_grant_making_page.test_dataset_grant_making.executor": "Run",
     "Python tests.Python tests for test_grant_making_page.test_txt_elements_grant_making.executor": "Run",
     "Python tests.Python tests for test_main_page.test_headers.executor": "Run",
+    "Python tests.Python tests for test_main_page.test_main_activities_text.executor": "Run",
     "Python tests.Python tests for test_our_funding_and_governance_page.test_headers.executor": "Run",
     "Python tests.Python tests for test_our_funding_and_governance_page.test_png_elements_our_funding_and_governance.executor": "Run",
     "Python tests.Python tests for test_our_funding_and_governance_page.test_text_elements_our_funding_and_governance.executor": "Run",
@@ -83,6 +482,12 @@
     "Python tests.Python tests for test_partners_page.test_text_partners.executor": "Run",
     "Python tests.Python tests for test_report_a_concern_page.test_btn_concern.executor": "Run",
     "Python tests.Python tests for test_report_a_concern_page.test_text_concern.executor": "Run",
+    "Python tests.Python tests for test_report_list_page.test_btn_report_list.executor": "Run",
+    "Python tests.Python tests for test_report_list_page.test_empty_report_list.executor": "Run",
+    "Python tests.Python tests for test_report_list_page.test_invalid_report_list.executor": "Run",
+    "Python tests.Python tests for test_report_list_page.test_text_report_list.executor": "Run",
+    "Python tests.Python tests for test_report_list_page.test_text_report_window.executor": "Run",
+    "Python tests.Python tests for test_report_list_page.test_valid_report_list.executor": "Run",
     "Python tests.Python tests for test_report_window_page.test_btn_report_window.executor": "Run",
     "Python tests.Python tests for test_report_window_page.test_input_report_window.executor": "Run",
     "Python tests.Python tests for test_report_window_page.test_logo_report_window.executor": "Run",
@@ -132,29 +537,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_report_window_page.test_btn_report_window">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Moliavko_Mihail_Diplom" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moliavko_m/diplom/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests in test_report_list_page.py">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="tests_moliavko_m" />
       <option name="ENV_FILES" value="" />
@@ -177,7 +560,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_report_window_page.test_btn_report_window" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_report_list_page.test_btn_report_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,11 +571,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_report_window_page.test_btn_report_window&quot;" />
+      <option name="_new_target" value="&quot;test_report_list_page.test_btn_report_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_report_window_page.test_input_report_window" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_report_list_page.test_empty_report_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,11 +586,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_report_window_page.test_input_report_window&quot;" />
+      <option name="_new_target" value="&quot;test_report_list_page.test_empty_report_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_report_window_page.test_logo_report_window" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_report_list_page.test_invalid_report_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,11 +601,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_report_window_page.test_logo_report_window&quot;" />
+      <option name="_new_target" value="&quot;test_report_list_page.test_invalid_report_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_report_window_page.test_text_partners" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_report_list_page.test_text_report_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,17 +616,32 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_report_window_page.test_text_partners&quot;" />
+      <option name="_new_target" value="&quot;test_report_list_page.test_text_report_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_report_list_page.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Moliavko_Mihail_Diplom" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests_ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_report_list_page.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_report_window_page.test_btn_report_window" />
-        <item itemvalue="Python tests.Python tests for test_report_window_page.test_input_report_window" />
-        <item itemvalue="Python tests.Python tests for test_report_window_page.test_logo_report_window" />
-        <item itemvalue="Python tests.Python tests for test_report_window_page.test_text_partners" />
-        <item itemvalue="Python.app" />
+        <item itemvalue="Python tests.Python tests in test_report_list_page.py" />
+        <item itemvalue="Python tests.Python tests for test_report_list_page.test_text_report_list" />
+        <item itemvalue="Python tests.Python tests for test_report_list_page.test_btn_report_list" />
+        <item itemvalue="Python tests.Python tests for test_report_list_page.test_empty_report_list" />
+        <item itemvalue="Python tests.Python tests for test_report_list_page.test_invalid_report_list" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +757,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735746869190</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="any text">
+      <option name="closed" value="true" />
+      <created>1735764917010</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1735764917010</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

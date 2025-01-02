@@ -29,7 +29,7 @@ def test_cards_partners(web_browser):
     elements_png = [
         (page.png_partner_01_logo,"204","44"),
         (page.png_partner_02_logo,"204","57"),
-        (page.png_partner_03_logo,"204","57")
+        (page.png_partner_03_logo,"204","50")
     ]
     x_coordinate = 0
     y_coordinate = 700
