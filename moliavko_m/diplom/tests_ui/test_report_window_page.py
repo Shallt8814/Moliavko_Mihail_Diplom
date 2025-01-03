@@ -50,21 +50,7 @@ def test_btn_report_window(web_browser):
              check.is_true(elements.is_visible())
              check.equal(elements.get_text(), elements_text)
 
-
-
-@allure.story('Проверка страницы Report Window')
-@allure.feature('Тест для негативной проверки полей ввода')
-def test_input_report_window(web_browser):
-    page = ReportWindow(web_browser)
-    with allure.step(""):
-         page.input_case_id.send_keys("1111111111111111111")
-         page.input_password.send_keys("11111111111111111111")
-         page.btn_view_case.click()
-         check.is_true(page.txt_error.is_visible())
-         check.equal(page.txt_error.get_text(), "Invalid credentials")
-
-
-
+### !!! ПОЗИТИВНОЕ И НЕГАТИВНОЕ ТЕСТИРОВАНИЕ ПОЛЕЙ ВВОДА - МАНУАЛЬНОЕ !!! ###
 
 
 

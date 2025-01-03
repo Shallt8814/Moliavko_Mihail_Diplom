@@ -29,8 +29,8 @@ class ReportWindow(WebPage):
     btn_view_case = WebElement(xpath='(//div[@class="gan-button__content ng-star-inserted"])[2]')
     btn_powered_by = WebElement(xpath='//a[@href="https://ganintegrity.com/privacy-notice/"]')
     ###
-    input_case_id = WebElement(xpath='(//input)[1]')
-    input_password = WebElement(xpath='(//input)[2]')
+    input_case_id = WebElement(xpath='//input[@id="mat-input-0"]')
+    input_password = WebElement(xpath='//input[@id="mat-input-1"]')
 
 
 
