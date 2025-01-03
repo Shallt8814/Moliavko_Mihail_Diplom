@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8b3003e-0307-409e-b339-4e645665f47f" name="Changes" comment="any text">
-      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_stories_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/test_stories_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/locators/locators_example_stories_card_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/tests_ui/example_stories_card_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +60,10 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python tests.Python tests for checking.test_check_box.executor": "Run",
+    "Python tests.Python tests for example_stories_card_page.test_breadcrumbs_example_grant_1.executor": "Run",
+    "Python tests.Python tests for example_stories_card_page.test_breadcrumbs_stories_card.executor": "Run",
+    "Python tests.Python tests for example_stories_card_page.test_btn_stories_card.executor": "Run",
+    "Python tests.Python tests for example_stories_card_page.test_png_stories_card.executor": "Run",
     "Python tests.Python tests for kL.test_sddfoji.executor": "Run",
     "Python tests.Python tests for test.test_any.executor": "Run",
     "Python tests.Python tests for test.test_api_users.executor": "Run",
@@ -144,7 +148,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_stories_page.test_exp_card_elements_stories">
+  <component name="RunManager" selected="Python tests.Python tests for example_stories_card_page.test_png_stories_card">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="tests_moliavko_m" />
       <option name="ENV_FILES" value="" />
@@ -167,7 +171,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_report_window_page.test_btn_report_window" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for example_stories_card_page.test_breadcrumbs_example_grant_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,11 +182,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_report_window_page.test_btn_report_window&quot;" />
+      <option name="_new_target" value="&quot;example_stories_card_page.test_breadcrumbs_example_grant_1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_stories_page.test_btn_elements_stories" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for example_stories_card_page.test_breadcrumbs_stories_card" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,7 +197,37 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_stories_page.test_btn_elements_stories&quot;" />
+      <option name="_new_target" value="&quot;example_stories_card_page.test_breadcrumbs_stories_card&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for example_stories_card_page.test_btn_stories_card" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Moliavko_Mihail_Diplom" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests_ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;example_stories_card_page.test_btn_stories_card&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for example_stories_card_page.test_png_stories_card" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Moliavko_Mihail_Diplom" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests_ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;example_stories_card_page.test_png_stories_card&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -212,43 +246,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_stories_page.test_select_elements_stories" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Moliavko_Mihail_Diplom" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests_ui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_stories_page.test_select_elements_stories&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_stories_page.test_txt_elements_grant_making" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Moliavko_Mihail_Diplom" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests_ui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_stories_page.test_txt_elements_grant_making&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for example_stories_card_page.test_png_stories_card" />
+        <item itemvalue="Python tests.Python tests for example_stories_card_page.test_btn_stories_card" />
+        <item itemvalue="Python tests.Python tests for example_stories_card_page.test_breadcrumbs_stories_card" />
+        <item itemvalue="Python tests.Python tests for example_stories_card_page.test_breadcrumbs_example_grant_1" />
         <item itemvalue="Python tests.Python tests for test_stories_page.test_exp_card_elements_stories" />
-        <item itemvalue="Python tests.Python tests for test_stories_page.test_btn_elements_stories" />
-        <item itemvalue="Python tests.Python tests for test_stories_page.test_select_elements_stories" />
-        <item itemvalue="Python tests.Python tests for test_stories_page.test_txt_elements_grant_making" />
-        <item itemvalue="Python tests.Python tests for test_report_window_page.test_btn_report_window" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +392,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735915427946</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="any text">
+      <option name="closed" value="true" />
+      <created>1735919004977</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1735919004977</updated>
+    </task>
+    <task id="LOCAL-00017" summary="any text">
+      <option name="closed" value="true" />
+      <created>1735919012750</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1735919012750</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
