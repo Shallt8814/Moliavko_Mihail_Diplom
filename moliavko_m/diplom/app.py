@@ -28,7 +28,6 @@ def ui_test():
 
 @app.route("/api_test")
 def api_test():
-    """ Эта функция запуская и отвечает за генерацию отчета allure. """
 
     cmd = ["./scriptsh/run_api.sh"]
     with subprocess.Popen(cmd, stdout=subprocess.PIPE,
@@ -41,7 +40,6 @@ def api_test():
 
 @app.route("/allure")
 def allure():
-    """ Эта функция запуская и отвечает за тесты страницы /example. """
 
     cmd = ["./scriptsh/runallure.sh"]
     with subprocess.Popen(cmd, stdout=subprocess.PIPE,
