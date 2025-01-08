@@ -25,7 +25,7 @@ class StoriesCard(WebPage):
     txt_social_about = WebElement(xpath='//p[@class="no-margin"]')
     current_page = WebElement(xpath='//span[@class="breadcrumb_last"]')
     ###
-    btn_home = WebElement(xpath='//a[@href="https://ikeafoundation.org/nl/"]')
+    btn_home = WebElement(xpath='(//a[@href="https://ikeafoundation.org/"])[2]')
     btn_stories = WebElement(xpath='(//a[@href="https://ikeafoundation.org/stories/"])[2]')
     btn_twitter = WebElement(xpath='//a[@aria-label="Share on Twitter"]')
     btn_facebook = WebElement(xpath='//a[@aria-label="Share on Facebook"]')

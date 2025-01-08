@@ -45,8 +45,8 @@ class MainPage(WebPage):
     ###
     txt_latest_news = WebElement(xpath='(//h2[@class="border-header"])[2]')
     txt_news_slider = WebElement(xpath='(//div[@class="slider__track"])[1]')
-    btn_slider_left_button = WebElement(xpath='(//button[@class="slider__arrow"])[1]')
-    btn_slider_right_button = WebElement(xpath='(//button[@class="slider__arrow"])[2]')
+    btn_slider_left_button = WebElement(xpath='(//button[@class="slider__arrow"])[3]')
+    btn_slider_right_button = WebElement(xpath='(//button[@class="slider__arrow"])[4]')
 
     btn_1_news_slide = WebElement(xpath='//div[@id="tns1-item0"]')
     txt_1_news_slide_text = WebElement(xpath='(//div[@class="post-card__excerpt"])[1]')

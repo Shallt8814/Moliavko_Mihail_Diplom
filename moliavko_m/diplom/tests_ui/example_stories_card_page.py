@@ -38,7 +38,7 @@ def test_breadcrumbs_stories_card(web_browser):
     page.btn_pip_up_cookies.click()
     elements_btn = [
         (page.btn_stories,"Stories","https://ikeafoundation.org/stories/"),
-        (page.btn_home, "Home","https://ikeafoundation.org/nl/")
+        (page.btn_home, "Home","https://ikeafoundation.org/")
     ]
     for elements, elements_text, elements_url in elements_btn:
         with allure.step("проверка видимости, текста, ссылок"):

@@ -43,7 +43,7 @@ def test_select_elements_stories(web_browser):
     time.sleep(2)
     with allure.step("проверка видимости и текста"):
          check.is_true(page.searched_element.is_visible())
-         check.equal(page.searched_element.get_text(), "Emergency grants help Save the Children support children when they most need it")
+         check.equal(page.searched_element.get_text(), "Growing together in Rwanda")
 
 
 

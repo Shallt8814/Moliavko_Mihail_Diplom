@@ -13,7 +13,7 @@ def test_breadcrumbs_example_grant_1(web_browser):
     page = ExampleGrant1(web_browser)
     page.btn_pip_up_cookies.click()
     elements_bar = [
-        (page.btn_home,"Home","https://ikeafoundation.org/nl/"),
+        (page.btn_home,"Home","https://ikeafoundation.org/"),
         (page.btn_grants,"Grants","https://ikeafoundation.org/grants/"),
         (page.txt_current_grant_card,"Non-state climate action integrity: research and stakeholder engagement",None)
     ]

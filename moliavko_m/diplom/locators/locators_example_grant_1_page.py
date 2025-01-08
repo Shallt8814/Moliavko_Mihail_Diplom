@@ -15,7 +15,7 @@ class ExampleGrant1(WebPage):
     ###
     btn_pip_up_cookies = WebElement(xpath='//button[@class="vogdprc-button vogdprc-button--accept"]')
     ###breadcrumbs
-    btn_home = WebElement(xpath='//a[@href="https://ikeafoundation.org/nl/"]')
+    btn_home = WebElement(xpath='(//a[@href="https://ikeafoundation.org/"])[2]')
     btn_grants = WebElement(xpath='(//a[@href="https://ikeafoundation.org/grants/"])[2]')
     txt_current_grant_card = WebElement(xpath='//span[@class="breadcrumb_last"]')
     ###

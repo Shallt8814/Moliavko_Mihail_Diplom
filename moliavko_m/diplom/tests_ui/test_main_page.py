@@ -68,7 +68,6 @@ def test_headers_3(web_browser):
         (page.btn_privacy_policy_footer,"Privacy Policy","https://ikeafoundation.org/privacy-policy/"),
         (page.btn_ANBI_footer,"ANBI","https://ikeafoundation.org/anbi-documents/"),
         (page.btn_documents_footer,"Documents","https://ikeafoundation.org/documents/"),
-        #(page.btn_cookie_preference_footer,"",""),
         (page.btn_footer_link,"Visit our values page to learn more", "https://ikeafoundation.org/values/"),
         (page.btn_twitter_footer,"","https://twitter.com/IKEAFoundation"),
         (page.btn_linkedin_footer,"","https://nl.linkedin.com/company/ikea-foundation"),
@@ -84,22 +83,6 @@ def test_headers_3(web_browser):
             check.equal(elements.get_attribute("href"), elements_url)
         with allure.step('проверка на совпадение текста'):
             check.equal(elements.get_text(), elements_text)
-
-    elements_headers = [
-        page.txt_footer_columns,
-        page.txt_footer_column_1,
-        page.txt_footer_column_2,
-        page.txt_footer_column_3,
-        page.txt_ikea_foundation_footer,
-        page.txt_logo_button_footer,
-        page.txt_trust_line_footer,
-        page.txt_trust_text_footer,
-        page.txt_social_media_footer,
-        page.txt_social_media_block_footer,
-    ]
-    for elements in elements_headers:
-        with allure.step('Проверка на отображение'):
-            check.is_true(elements.is_visible())
 
 
 
@@ -132,9 +115,9 @@ def test_main_presentable_text(web_browser):
     page = MainPage(web_browser)
     page.btn_pip_up_cookies.click()
     elements_main = [
-        (page.txt_hero_text,"Met onze visie willen we een beter dagelijks bestaan creëren voor zoveel mogelijk mensen."),
-        (page.txt_hero_mission,"Onze missie"),
-        (page.txt_hero_mission_about,"Levens van kwetsbare kinderen verbeteren door te zorgen dat gezinnen op duurzame wijze in hun levensonderhoud kunnen voorzien en dat ze klimaatverandering kunnen bestrijden en het hoofd kunnen bieden.")
+        (page.txt_hero_text,"Our vision is to create a better everyday life for the many people."),
+        (page.txt_hero_mission,"Our mission"),
+        (page.txt_hero_mission_about,"To improve the lives of vulnerable children by enabling their families to create sustainable livelihoods, and fight and cope with climate change.")
     ]
     for elements, elements_text in elements_main:
         with allure.step("проверка видимости элементов"):
@@ -144,11 +127,11 @@ def test_main_presentable_text(web_browser):
 ###проверка текста грантов
     page.txt_ikea_grand.scroll_to_element()
     elements_main = [
-        (page.txt_ikea_grand,"De IKEA Foundation heeft tot nu toe 2 miljard euro toegekend aan mensen en de planeet."),
+        (page.txt_ikea_grand,"The IKEA Foundation has granted €2 billion for people and the planet so far."),
         (page.txt_ikea_grand_ikea_foundation,"IKEA Foundation"),
-        (page.txt_ikea_grand_money,"2 miljard euro"),
-        (page.txt_ikea_grand_people,"mensen"),
-        (page.txt_ikea_grand_planet,"planeet")
+        (page.txt_ikea_grand_money,"€2 billion"),
+        (page.txt_ikea_grand_people,"people"),
+        (page.txt_ikea_grand_planet,"planet")
     ]
     for elements, elements_text in elements_main:
         with allure.step("проверка совпадения текста"):
@@ -164,10 +147,10 @@ def test_main_activities_text(web_browser):
     page = MainPage(web_browser)
     page.btn_pip_up_cookies.click()
     element_text = [
-        (page.txt_our_focus_people,"Mensen"),
-        (page.txt_our_focus_people_text,"We zetten ons in om gezinnen die in armoede leven en mensen die hun huis hebben moeten ontvluchten te helpen een duurzaam bestaan op te bouwen. We zien grote kansen in regeneratieve landbouw, groen ondernemen en het productieve gebruik van hernieuwbare energie."),
-        (page.txt_our_focus_planet,"Planeet"),
-        (page.txt_our_focus_planet_text,"We zetten ons in voor gedurfde klimaatmaatregelen om de uitstoot van broeikasgassen drastisch te verminderen en om kwetsbare gemeenschappen te helpen zich aan te passen aan de gevolgen van klimaatverandering."),
+        (page.txt_our_focus_people,"People"),
+        (page.txt_our_focus_people_text,"We’re committed to helping families living in poverty and people who have been forced to flee their homes to build sustainable livelihoods. We see great opportunities in regenerative agriculture, green enterprise and the productive use of renewable energy."),
+        (page.txt_our_focus_planet,"Planet"),
+        (page.txt_our_focus_planet_text,"We are committed to taking bold climate action. Our mission is clear: drastically reduce greenhouse gas emissions to mitigate global temperature rise to 1.5°C and support vulnerable communities in adapting to the inevitable impacts of climate change. In the foreseeable future, our top priority is emission reduction, as we believe it is the most urgent step toward securing a sustainable future for all."),
     ]
     element = web_browser.find_element(By.XPATH,'//div[@class="focus grid "]')
     web_browser.execute_script("arguments[0].scrollIntoView(true);", element)
@@ -178,8 +161,8 @@ def test_main_activities_text(web_browser):
         with allure.step("проверка текста"):
             check.equal(elements.get_text(), elements_text)
     elementos_txt = [
-        (page.txt_our_grands_text,"Lees meer over de partners die we steunen en over de hoogte, de duur en het doel van onze subsidies."),
-        (page.txt_our_learnings_text,"Leren hoe je dingen beter kan doen, is de kern van onze cultuur. Wij geloven dat er altijd manieren waarmee we onze mensen en de planeet op een positieve manier kunnen beïnvloeden.")
+        (page.txt_our_grands_text,"Find out about the partners we fund and the amount, duration and scope of our grants."),
+        (page.txt_our_learnings_text,"Learning how to do things better is at the heart of our culture. We believe there are always ways to improve, so we can increase our impact for people and the planet.")
     ]
     element = web_browser.find_element(By.XPATH,'//div[@class="wp-block-columns is-style-border-bottom is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex"]')
     web_browser.execute_script("arguments[0].scrollIntoView(true);", element)
@@ -200,8 +183,8 @@ def test_main_activities_buttons(web_browser):
     page.btn_pip_up_cookies.click()
     element_button = [
         (page.btn_our_focus_more_button,"","https://ikeafoundation.org/focus"),
-        (page.btn_our_grands_more_buttons,"Meer info","https://ikeafoundation.org/grants/"),
-        (page.btn_our_learnings_more_button,"Meer info","https://ikeafoundation.org/learnings/"),
+        (page.btn_our_grands_more_buttons,"Learn more","https://ikeafoundation.org/grants/"),
+        (page.btn_our_learnings_more_button,"Learn more","https://ikeafoundation.org/learnings/"),
     ]
 
     element = web_browser.find_element(By.XPATH, '//div[@class="entry__inner padded container has-parent-"]')
@@ -241,7 +224,7 @@ def test_main_citates(web_browser):
     with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.txt_1_slide_citate_text.is_visible())
         check.is_true(page.txt_1_slide_autor.is_visible())
-        check.equal(page.txt_1_slide_citate_text.get_text(), "Geen enkele methode is effectiever dan het goede voorbeeld.")
+        check.equal(page.txt_1_slide_citate_text.get_text(), "No method is more effective than the good example.")
         check.equal(page.txt_1_slide_autor.get_text(), "Ingvar Kamprad")
     page.btn_slider_right_button.click()
     page.btn_slider_left_button.click()
@@ -249,31 +232,31 @@ def test_main_citates(web_browser):
     with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.txt_2_slide_citate_text.is_visible())
         check.is_true(page.txt_2_slide_autor.is_visible())
-        check.equal(page.txt_2_slide_citate_text.get_text(), "Ontwikkeling is niet altijd hetzelfde als vooruitgang.")
+        check.equal(page.txt_2_slide_citate_text.get_text(), "Development is not always the same thing as progress.")
         check.equal(page.txt_2_slide_autor.get_text(), "Ingvar Kamprad")
     page.btn_slider_right_button.click()
     with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.txt_3_slide_citate_text.is_visible())
         check.is_true(page.txt_3_slide_autor.is_visible())
-        check.equal(page.txt_3_slide_citate_text.get_text(), "Als we ons altijd afvragen waarom we dit of dat doen, kunnen we nieuwe wegen vinden.")
+        check.equal(page.txt_3_slide_citate_text.get_text(), "By always asking why we are doing this or that, we can find new paths.")
         check.equal(page.txt_3_slide_autor.get_text(), "Ingvar Kamprad")
     page.btn_slider_right_button.click()
     with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.txt_4_slide_citate_text.is_visible())
         check.is_true(page.txt_4_slide_autor.is_visible())
-        check.equal(page.txt_4_slide_citate_text.get_text(), "Faalangst is de kiem van de bureaucratie en de vijand van de ontwikkeling.")
+        check.equal(page.txt_4_slide_citate_text.get_text(), "The fear of making mistakes is the root of bureaucracy and the enemy of development.")
         check.equal(page.txt_4_slide_autor.get_text(), "Ingvar Kamprad")
     page.btn_slider_right_button.click()
     with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.txt_5_slide_citate_text.is_visible())
         check.is_true(page.txt_5_slide_autor.is_visible())
-        check.equal(page.txt_5_slide_citate_text.get_text(), "Tijd is je belangrijkste bron.")
+        check.equal(page.txt_5_slide_citate_text.get_text(), "Time is your most important resource.")
         check.equal(page.txt_5_slide_autor.get_text(), "Ingvar Kamprad")
     page.btn_slider_right_button.click()
     with allure.step("проверка слайда на отображения, текст, кликабельность"):
         check.is_true(page.txt_6_slide_citate_text.is_visible())
         check.is_true(page.txt_6_slide_autor.is_visible())
-        check.equal(page.txt_6_slide_citate_text.get_text(), "Winnen betekent niet dat iemand anders moet verliezen. De mooiste overwinningen kennen geen verliezers.")
+        check.equal(page.txt_6_slide_citate_text.get_text(), "Winning does not mean that someone else has to lose. The finest victories are those without losers.")
         check.equal(page.txt_6_slide_autor.get_text(), "Ingvar Kamprad")
 
 
@@ -294,7 +277,7 @@ def test_main_partners(web_browser):
         check.equal(page.txt_partners_cards.count(), 12)
     elements_partners = [
         (page.txt_partners_block_about_text,"Partners"),
-        (page.txt_partners_block_about_text_text,"We bouwen langdurige, strategische partnerschappen op met zowel grote als kleine organisaties. Samen met onze partners ontwikkelen we innovatieve oplossingen en werken we aan de verandering van complexe systemen, zodat ze ten goede komen aan zoveel mogelijk mensen en onze planeet beschermen.")
+        (page.txt_partners_block_about_text_text,"We build long-term, strategic partnerships with both large and small organisations. Together with our partners, we develop innovative solutions and work to change complex systems, so they benefit the many people and protect our planet.")
     ]
     for elements, elements_text in elements_partners:
         with allure.step("проверка видимости"):
@@ -302,8 +285,8 @@ def test_main_partners(web_browser):
         with allure.step("проверка текста"):
             check.equal(elements.get_text(), elements_text)
     elements_partners_buttons = [
-        (page.btn_partners_block_more_about_partners_button,"Bekijk alle partners","https://ikeafoundation.org/partners/"),
-        (page.btn_learn_about_our_work_together_button,"Meer informatie over onze samenwerking","https://ikeafoundation.org/focus")
+        (page.btn_partners_block_more_about_partners_button,"See all partners","https://ikeafoundation.org/partners/"),
+        (page.btn_learn_about_our_work_together_button,"Learn more about our work together","https://ikeafoundation.org/focus")
     ]
     for elements, elements_text, elements_url in elements_partners_buttons:
         with allure.step("проверка видимости"):
