@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8b3003e-0307-409e-b339-4e645665f47f" name="Changes" comment="any text" />
+    <list default="true" id="d8b3003e-0307-409e-b339-4e645665f47f" name="Changes" comment="any text">
+      <change beforePath="$PROJECT_DIR$/.idea/Moliavko_Mihail_Diplom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Moliavko_Mihail_Diplom.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moliavko_m/locustfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/locustfile.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,12 +69,40 @@
     &quot;Python tests.Python tests for test.test_api_users.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test.test_users.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_IKEA_foundation_about_page.test_headers.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_api_header_and_footer.test_api_7_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_api_main_page.test_api_2_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_api_main_page.test_api_3_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_api_main_page.test_api_5_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_api_main_page.test_api_6_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_api_main_page.test_api_report_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_api_report_a_concern.test_api_butt.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_api_report_a_concern.test_api_report_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_api_report_a_concern.test_api_report_case.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_api_report_a_concern.test_api_visit_values_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_api_share_grant.test_api_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_api_social_media.test_api_butt.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_api_social_media.test_api_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_api_social_media_buttons.test_api_butt.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_api_social_media_buttons.test_api_instagram_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_example_grant_1_page.test_breadcrumbs_example_grant_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_example_grant_1_page.test_human_partner_example_grant_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_example_grant_1_page.test_main_text_example_grant_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_example_grant_1_page.test_partners_example_grant_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_example_grant_1_page.test_progress_bar_example_grant_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_example_grant_1_page.test_share_example_grant_1.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_grant_making_page.test.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_grant_making_page.test_btn_elements_grant_making.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_grant_making_page.test_dataset_grant_making.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_grant_making_page.test_txt_elements_grant_making.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main_page.test_footer_blocks.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_main_page.test_headers.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main_page.test_headers_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main_page.test_headers_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main_page.test_main_activities_buttons.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_main_page.test_main_activities_text.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main_page.test_main_citates.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main_page.test_main_partners.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_main_page.test_main_presentable_text.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_our_funding_and_governance_page.test_headers.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_our_funding_and_governance_page.test_png_elements_our_funding_and_governance.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_our_funding_and_governance_page.test_text_elements_our_funding_and_governance.executor&quot;: &quot;Run&quot;,
@@ -99,10 +131,20 @@
     &quot;Python tests.Python tests for test_stories_page.test_select_elements_stories.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_stories_page.test_txt_elements_grant_making.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_themes_page.test_themes_text.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in example_stories_card_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_IKEA_foundation_about_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_example_grant_1_page.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_grant_making_page.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_main_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_our_funding_and_governance_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_our_team_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_our_values_page.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_partners_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_report_a_concern_page.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_report_list_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_report_window_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_stories_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_the_way_we_work_page.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_themes_page.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in tests.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest for checking.test_check_box.executor&quot;: &quot;Run&quot;,
@@ -122,9 +164,13 @@
     &quot;Python tests.pytest for test_main_page.test_main_news.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest for test_main_page.test_main_partners.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest for test_main_page.test_main_presentable_text.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in example_stories_card_page.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest in test_api_logo_btn.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest in test_header_and_footer.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest in test_main_page.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.locators_example_grant_1_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python.locators_grant_making_page.executor&quot;: &quot;Run&quot;,
     &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -141,6 +187,9 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/moliavko_m/diplom" />
+      <recent name="$PROJECT_DIR$/moliavko_m/diplom/templates" />
+      <recent name="$PROJECT_DIR$/moliavko_m/diplom/templates/web_enterprise" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -189,37 +238,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for example_stories_card_page.test_breadcrumbs_example_grant_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for moliavko_m.diplom.tests_api.test_api_logo_btn.test_api_7_button" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests_ui" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;example_stories_card_page.test_breadcrumbs_example_grant_1&quot;" />
+      <option name="_new_target" value="&quot;moliavko_m.diplom.tests_api.test_api_logo_btn.test_api_7_button&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for example_stories_card_page.test_breadcrumbs_stories_card" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_api_report_a_concern.test_api_visit_values_button" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests_ui" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;example_stories_card_page.test_breadcrumbs_stories_card&quot;" />
+      <option name="_new_target" value="&quot;test_api_report_a_concern.test_api_visit_values_button&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for example_stories_card_page.test_btn_stories_card" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in example_stories_card_page.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,33 +278,37 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;example_stories_card_page.test_btn_stories_card&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/moliavko_m/diplom/tests_ui/example_stories_card_page.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for example_stories_card_page.test_png_stories_card" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_api_logo_btn.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests_ui" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests_api" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;example_stories_card_page.test_png_stories_card&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/moliavko_m/diplom/tests_api/test_api_logo_btn.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
-        <item itemvalue="Python tests.Python tests for example_stories_card_page.test_png_stories_card" />
-        <item itemvalue="Python tests.Python tests for example_stories_card_page.test_btn_stories_card" />
-        <item itemvalue="Python tests.Python tests for example_stories_card_page.test_breadcrumbs_stories_card" />
-        <item itemvalue="Python tests.Python tests for example_stories_card_page.test_breadcrumbs_example_grant_1" />
+        <item itemvalue="Python tests.pytest in example_stories_card_page.py" />
+        <item itemvalue="Python tests.pytest in test_api_logo_btn.py" />
+        <item itemvalue="Python tests.Python tests for test_api_report_a_concern.test_api_visit_values_button" />
+        <item itemvalue="Python tests.Python tests for moliavko_m.diplom.tests_api.test_api_logo_btn.test_api_7_button" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +480,31 @@
       <option name="project" value="LOCAL" />
       <updated>1736092551515</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="any text">
+      <option name="closed" value="true" />
+      <created>1736252103534</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1736252103534</updated>
+    </task>
+    <task id="LOCAL-00021" summary="any text">
+      <option name="closed" value="true" />
+      <created>1736351487282</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1736351487282</updated>
+    </task>
+    <task id="LOCAL-00022" summary="any text">
+      <option name="closed" value="true" />
+      <created>1736366083369</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1736366083369</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

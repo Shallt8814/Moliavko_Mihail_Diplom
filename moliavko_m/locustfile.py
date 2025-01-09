@@ -1,8 +1,10 @@
-from locust import HttpUser, task, between
-class WebsiteTestUser(HttpUser):
-    @task(1)
-    def hello_world(self):
-        self.client.get("http://localhost:5000")
-    @task(2)
-    def index(self):
-        self.client.get("http://localhost:5000/index")
+from locust import HttpUser, task
+class User(HttpUser):
+    @task
+    def mainPage(self):
+        self.client.get("/")
+        self.client.get("https://ikeafoundation.org")
+
+
+
+
