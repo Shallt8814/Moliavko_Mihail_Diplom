@@ -1,0 +1,185 @@
+{
+	"info": {
+		"_postman_id": "48a1dd27-14fb-497f-915a-3cb4d3b9d93a",
+		"name": "Ikea Foundation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "36753315"
+	},
+	"item": [
+		{
+			"name": "Проверка кнопки логотипа",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ikeafoundation.org/"
+			},
+			"response": []
+		},
+		{
+			"name": "Проверка кнопки узнать о работе",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ikeafoundation.org/themes/"
+			},
+			"response": []
+		},
+		{
+			"name": "Проверка кнопки пост кард",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ikeafoundation.org/stories/post-cop29-reflections-a-call-to-action-for-funders/"
+			},
+			"response": []
+		},
+		{
+			"name": "Проверка кнопки узнать больше в грантах",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ikeafoundation.org/grants/"
+			},
+			"response": []
+		},
+		{
+			"name": "Проверка кнопки узнать больше в лёрнингс",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ikeafoundation.org/learnings/"
+			},
+			"response": []
+		},
+		{
+			"name": "Проверка кнопки увидеть всех партнеров",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ikeafoundation.org/partners/"
+			},
+			"response": []
+		},
+		{
+			"name": "Проверка кнопки создать репорт",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ikeafoundation.org/report-a-concern/"
+			},
+			"response": []
+		},
+		{
+			"name": "Проверка кнопки посмотреть репорт кейс",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"submissionId\": \"580501184\",\n    \"password\": \"8656 7876 8147 0822\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://ikea-foundation.gan-compliance.com/p/api/Case/access?locale=en-US",
+					"protocol": "https",
+					"host": [
+						"ikea-foundation",
+						"gan-compliance",
+						"com"
+					],
+					"path": [
+						"p",
+						"api",
+						"Case",
+						"access"
+					],
+					"query": [
+						{
+							"key": "locale",
+							"value": "en-US"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Проверка кнопки визит наши вальюес",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://ikeafoundation.org/values/"
+			},
+			"response": []
+		},
+		{
+			"name": "Проверка кнопки твиттера",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://twitter.com/IKEAFoundation"
+			},
+			"response": []
+		},
+		{
+			"name": "Проверка кнопки линкедина",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQF-fDaX9SivwQAAAZRGXp_QCCdQ4oBgg5DeTLmhuleKWy-yRx7SNuWZ2X4-Fo0LEwCifybV_9ArVZl7ApG9M_TiHPeJd0SmmmSQt28p6vGnbxgJq3R5mDUPQAwovuKpSXE40s0=&original_referer=&sessionRedirect=https%3A%2F%2Fnl.linkedin.com%2Fcompany%2Fikea-foundation",
+					"protocol": "https",
+					"host": [
+						"www",
+						"linkedin",
+						"com"
+					],
+					"path": [
+						"authwall"
+					],
+					"query": [
+						{
+							"key": "trk",
+							"value": "bf"
+						},
+						{
+							"key": "trkInfo",
+							"value": "AQF-fDaX9SivwQAAAZRGXp_QCCdQ4oBgg5DeTLmhuleKWy-yRx7SNuWZ2X4-Fo0LEwCifybV_9ArVZl7ApG9M_TiHPeJd0SmmmSQt28p6vGnbxgJq3R5mDUPQAwovuKpSXE40s0="
+						},
+						{
+							"key": "original_referer",
+							"value": ""
+						},
+						{
+							"key": "sessionRedirect",
+							"value": "https%3A%2F%2Fnl.linkedin.com%2Fcompany%2Fikea-foundation"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Проверка кнопки ютуба",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://www.youtube.com/user/IKEAFoundation/"
+			},
+			"response": []
+		},
+		{
+			"name": "Проверка кнопки инстаграма",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://www.instagram.com/ikea_foundation/"
+			},
+			"response": []
+		}
+	]
+}

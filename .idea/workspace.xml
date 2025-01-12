@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8b3003e-0307-409e-b339-4e645665f47f" name="Changes" comment="any text">
-      <change beforePath="$PROJECT_DIR$/.idea/Moliavko_Mihail_Diplom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Moliavko_Mihail_Diplom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ikea Foundation.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/scriptsh/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/scriptsh/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/scriptsh/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/scriptsh/postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/scriptsh/run_build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moliavko_m/diplom/scriptsh/run_tests.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moliavko_m/locustfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/moliavko_m/locustfile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,132 +61,134 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for checking.test_check_box.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for example_stories_card_page.test_breadcrumbs_example_grant_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for example_stories_card_page.test_breadcrumbs_stories_card.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for example_stories_card_page.test_btn_stories_card.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for example_stories_card_page.test_png_stories_card.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for kL.test_sddfoji.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_any.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_api_users.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.test_users.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_IKEA_foundation_about_page.test_headers.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_header_and_footer.test_api_7_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_main_page.test_api_2_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_main_page.test_api_3_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_main_page.test_api_5_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_main_page.test_api_6_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_main_page.test_api_report_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_report_a_concern.test_api_butt.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_report_a_concern.test_api_report_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_report_a_concern.test_api_report_case.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_report_a_concern.test_api_visit_values_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_share_grant.test_api_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_social_media.test_api_butt.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_social_media.test_api_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_social_media_buttons.test_api_butt.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_api_social_media_buttons.test_api_instagram_button.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_example_grant_1_page.test_breadcrumbs_example_grant_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_example_grant_1_page.test_human_partner_example_grant_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_example_grant_1_page.test_main_text_example_grant_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_example_grant_1_page.test_partners_example_grant_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_example_grant_1_page.test_progress_bar_example_grant_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_example_grant_1_page.test_share_example_grant_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_grant_making_page.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_grant_making_page.test_btn_elements_grant_making.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_grant_making_page.test_dataset_grant_making.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_grant_making_page.test_txt_elements_grant_making.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_main_page.test_footer_blocks.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_main_page.test_headers.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_main_page.test_headers_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_main_page.test_headers_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_main_page.test_main_activities_buttons.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_main_page.test_main_activities_text.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_main_page.test_main_citates.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_main_page.test_main_partners.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_main_page.test_main_presentable_text.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_our_funding_and_governance_page.test_headers.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_our_funding_and_governance_page.test_png_elements_our_funding_and_governance.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_our_funding_and_governance_page.test_text_elements_our_funding_and_governance.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_our_team_page.test_png_elements.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_our_team_page.test_png_elements_our_team.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_our_values_page.test_links_elements_our_values.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_our_values_page.test_png_elements_our_values.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_our_values_page.test_txt_elements_our_team.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_partners_page.test_cards_buttons_partners.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_partners_page.test_cards_partners.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_partners_page.test_text_partners.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_report_a_concern_page.test_btn_concern.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_report_a_concern_page.test_text_concern.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_report_list_page.test_btn_report_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_report_list_page.test_empty_report_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_report_list_page.test_invalid_report_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_report_list_page.test_text_report_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_report_list_page.test_text_report_window.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_report_list_page.test_valid_report_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_report_window_page.test_btn_report_window.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_report_window_page.test_input_report_window.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_report_window_page.test_logo_report_window.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_report_window_page.test_text_partners.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stories_page.test_btn_elements_stories.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stories_page.test_exp_card_elements_stories.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stories_page.test_select_elements_stories.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_stories_page.test_txt_elements_grant_making.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_themes_page.test_themes_text.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in example_stories_card_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_IKEA_foundation_about_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_example_grant_1_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_grant_making_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_main_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_our_funding_and_governance_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_our_team_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_our_values_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_partners_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_report_a_concern_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_report_list_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_report_window_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_stories_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_the_way_we_work_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_themes_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in tests.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for checking.test_check_box.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_automobile_page.test_searching.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_main_page.test_footer.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_main_page.test_footer_blocks.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_main_page.test_headers.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_main_page.test_headers_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_main_page.test_headers_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_main_page.test_headers_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_main_page.test_headers_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_main_page.test_headers_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_main_page.test_headers_searching.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_main_page.test_main_activities_buttons.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_main_page.test_main_activities_text.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_main_page.test_main_citates.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_main_page.test_main_news.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_main_page.test_main_partners.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest for test_main_page.test_main_presentable_text.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in example_stories_card_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_api_logo_btn.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_header_and_footer.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.pytest in test_main_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.locators_example_grant_1_page.executor&quot;: &quot;Run&quot;,
-    &quot;Python.locators_grant_making_page.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mike/PycharmProjects/Moliavko_Mihail_Diplom/moliavko_m/diplom/templates&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python tests.Python tests for checking.test_check_box.executor": "Run",
+    "Python tests.Python tests for example_stories_card_page.test_breadcrumbs_example_grant_1.executor": "Run",
+    "Python tests.Python tests for example_stories_card_page.test_breadcrumbs_stories_card.executor": "Run",
+    "Python tests.Python tests for example_stories_card_page.test_btn_stories_card.executor": "Run",
+    "Python tests.Python tests for example_stories_card_page.test_png_stories_card.executor": "Run",
+    "Python tests.Python tests for kL.test_sddfoji.executor": "Run",
+    "Python tests.Python tests for test.test_any.executor": "Run",
+    "Python tests.Python tests for test.test_api_users.executor": "Run",
+    "Python tests.Python tests for test.test_users.executor": "Run",
+    "Python tests.Python tests for test_IKEA_foundation_about_page.test_headers.executor": "Run",
+    "Python tests.Python tests for test_api_header_and_footer.test_api_7_button.executor": "Run",
+    "Python tests.Python tests for test_api_main_page.test_api_2_button.executor": "Run",
+    "Python tests.Python tests for test_api_main_page.test_api_3_button.executor": "Run",
+    "Python tests.Python tests for test_api_main_page.test_api_5_button.executor": "Run",
+    "Python tests.Python tests for test_api_main_page.test_api_6_button.executor": "Run",
+    "Python tests.Python tests for test_api_main_page.test_api_report_button.executor": "Run",
+    "Python tests.Python tests for test_api_report_a_concern.test_api_butt.executor": "Run",
+    "Python tests.Python tests for test_api_report_a_concern.test_api_report_button.executor": "Run",
+    "Python tests.Python tests for test_api_report_a_concern.test_api_report_case.executor": "Run",
+    "Python tests.Python tests for test_api_report_a_concern.test_api_visit_values_button.executor": "Run",
+    "Python tests.Python tests for test_api_share_grant.test_api_button.executor": "Run",
+    "Python tests.Python tests for test_api_social_media.test_api_butt.executor": "Run",
+    "Python tests.Python tests for test_api_social_media.test_api_button.executor": "Run",
+    "Python tests.Python tests for test_api_social_media_buttons.test_api_butt.executor": "Run",
+    "Python tests.Python tests for test_api_social_media_buttons.test_api_instagram_button.executor": "Run",
+    "Python tests.Python tests for test_example_grant_1_page.test_breadcrumbs_example_grant_1.executor": "Run",
+    "Python tests.Python tests for test_example_grant_1_page.test_human_partner_example_grant_1.executor": "Run",
+    "Python tests.Python tests for test_example_grant_1_page.test_main_text_example_grant_1.executor": "Run",
+    "Python tests.Python tests for test_example_grant_1_page.test_partners_example_grant_1.executor": "Run",
+    "Python tests.Python tests for test_example_grant_1_page.test_progress_bar_example_grant_1.executor": "Run",
+    "Python tests.Python tests for test_example_grant_1_page.test_share_example_grant_1.executor": "Run",
+    "Python tests.Python tests for test_grant_making_page.test.executor": "Run",
+    "Python tests.Python tests for test_grant_making_page.test_btn_elements_grant_making.executor": "Run",
+    "Python tests.Python tests for test_grant_making_page.test_dataset_grant_making.executor": "Run",
+    "Python tests.Python tests for test_grant_making_page.test_txt_elements_grant_making.executor": "Run",
+    "Python tests.Python tests for test_main_page.test_footer_blocks.executor": "Run",
+    "Python tests.Python tests for test_main_page.test_headers.executor": "Run",
+    "Python tests.Python tests for test_main_page.test_headers_3.executor": "Run",
+    "Python tests.Python tests for test_main_page.test_headers_5.executor": "Run",
+    "Python tests.Python tests for test_main_page.test_main_activities_buttons.executor": "Run",
+    "Python tests.Python tests for test_main_page.test_main_activities_text.executor": "Run",
+    "Python tests.Python tests for test_main_page.test_main_citates.executor": "Run",
+    "Python tests.Python tests for test_main_page.test_main_partners.executor": "Run",
+    "Python tests.Python tests for test_main_page.test_main_presentable_text.executor": "Run",
+    "Python tests.Python tests for test_our_funding_and_governance_page.test_headers.executor": "Run",
+    "Python tests.Python tests for test_our_funding_and_governance_page.test_png_elements_our_funding_and_governance.executor": "Run",
+    "Python tests.Python tests for test_our_funding_and_governance_page.test_text_elements_our_funding_and_governance.executor": "Run",
+    "Python tests.Python tests for test_our_team_page.test_png_elements.executor": "Run",
+    "Python tests.Python tests for test_our_team_page.test_png_elements_our_team.executor": "Run",
+    "Python tests.Python tests for test_our_values_page.test_links_elements_our_values.executor": "Run",
+    "Python tests.Python tests for test_our_values_page.test_png_elements_our_values.executor": "Run",
+    "Python tests.Python tests for test_our_values_page.test_txt_elements_our_team.executor": "Run",
+    "Python tests.Python tests for test_partners_page.test_cards_buttons_partners.executor": "Run",
+    "Python tests.Python tests for test_partners_page.test_cards_partners.executor": "Run",
+    "Python tests.Python tests for test_partners_page.test_text_partners.executor": "Run",
+    "Python tests.Python tests for test_report_a_concern_page.test_btn_concern.executor": "Run",
+    "Python tests.Python tests for test_report_a_concern_page.test_text_concern.executor": "Run",
+    "Python tests.Python tests for test_report_list_page.test_btn_report_list.executor": "Run",
+    "Python tests.Python tests for test_report_list_page.test_empty_report_list.executor": "Run",
+    "Python tests.Python tests for test_report_list_page.test_invalid_report_list.executor": "Run",
+    "Python tests.Python tests for test_report_list_page.test_text_report_list.executor": "Run",
+    "Python tests.Python tests for test_report_list_page.test_text_report_window.executor": "Run",
+    "Python tests.Python tests for test_report_list_page.test_valid_report_list.executor": "Run",
+    "Python tests.Python tests for test_report_window_page.test_btn_report_window.executor": "Run",
+    "Python tests.Python tests for test_report_window_page.test_input_report_window.executor": "Run",
+    "Python tests.Python tests for test_report_window_page.test_logo_report_window.executor": "Run",
+    "Python tests.Python tests for test_report_window_page.test_text_partners.executor": "Run",
+    "Python tests.Python tests for test_stories_page.test_btn_elements_stories.executor": "Run",
+    "Python tests.Python tests for test_stories_page.test_exp_card_elements_stories.executor": "Run",
+    "Python tests.Python tests for test_stories_page.test_select_elements_stories.executor": "Run",
+    "Python tests.Python tests for test_stories_page.test_txt_elements_grant_making.executor": "Run",
+    "Python tests.Python tests for test_themes_page.test_themes_text.executor": "Run",
+    "Python tests.Python tests in example_stories_card_page.py.executor": "Run",
+    "Python tests.Python tests in test_IKEA_foundation_about_page.py.executor": "Run",
+    "Python tests.Python tests in test_example_grant_1_page.py.executor": "Run",
+    "Python tests.Python tests in test_grant_making_page.py.executor": "Run",
+    "Python tests.Python tests in test_main_page.py.executor": "Run",
+    "Python tests.Python tests in test_our_funding_and_governance_page.py.executor": "Run",
+    "Python tests.Python tests in test_our_team_page.py.executor": "Run",
+    "Python tests.Python tests in test_our_values_page.py.executor": "Run",
+    "Python tests.Python tests in test_partners_page.py.executor": "Run",
+    "Python tests.Python tests in test_report_a_concern_page.py.executor": "Run",
+    "Python tests.Python tests in test_report_list_page.py.executor": "Run",
+    "Python tests.Python tests in test_report_window_page.py.executor": "Run",
+    "Python tests.Python tests in test_stories_page.py.executor": "Run",
+    "Python tests.Python tests in test_the_way_we_work_page.py.executor": "Run",
+    "Python tests.Python tests in test_themes_page.py.executor": "Run",
+    "Python tests.Python tests in tests.executor": "Run",
+    "Python tests.pytest for checking.test_check_box.executor": "Run",
+    "Python tests.pytest for test_automobile_page.test_searching.executor": "Run",
+    "Python tests.pytest for test_main_page.test_footer.executor": "Run",
+    "Python tests.pytest for test_main_page.test_footer_blocks.executor": "Run",
+    "Python tests.pytest for test_main_page.test_headers.executor": "Run",
+    "Python tests.pytest for test_main_page.test_headers_1.executor": "Run",
+    "Python tests.pytest for test_main_page.test_headers_2.executor": "Run",
+    "Python tests.pytest for test_main_page.test_headers_3.executor": "Run",
+    "Python tests.pytest for test_main_page.test_headers_4.executor": "Run",
+    "Python tests.pytest for test_main_page.test_headers_5.executor": "Run",
+    "Python tests.pytest for test_main_page.test_headers_searching.executor": "Run",
+    "Python tests.pytest for test_main_page.test_main_activities_buttons.executor": "Run",
+    "Python tests.pytest for test_main_page.test_main_activities_text.executor": "Run",
+    "Python tests.pytest for test_main_page.test_main_citates.executor": "Run",
+    "Python tests.pytest for test_main_page.test_main_news.executor": "Run",
+    "Python tests.pytest for test_main_page.test_main_partners.executor": "Run",
+    "Python tests.pytest for test_main_page.test_main_presentable_text.executor": "Run",
+    "Python tests.pytest in example_stories_card_page.py.executor": "Run",
+    "Python tests.pytest in test_api_logo_btn.py.executor": "Run",
+    "Python tests.pytest in test_header_and_footer.py.executor": "Run",
+    "Python tests.pytest in test_main_page.py.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.locators_example_grant_1_page.executor": "Run",
+    "Python.locators_grant_making_page.executor": "Run",
+    "Python.test (1).executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Shell Script.run_build.sh.executor": "Run",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/mike/PycharmProjects/Moliavko_Mihail_Diplom/moliavko_m/diplom/scriptsh",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/moliavko_m/diplom/scriptsh" />
       <recent name="$PROJECT_DIR$/moliavko_m/diplom/templates" />
       <recent name="$PROJECT_DIR$/moliavko_m" />
       <recent name="$PROJECT_DIR$" />
@@ -193,7 +200,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager" selected="Shell Script.run_build.sh">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Moliavko_Mihail_Diplom" />
       <option name="ENV_FILES" value="" />
@@ -238,19 +245,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for moliavko_m.diplom.tests_api.test_api_logo_btn.test_api_7_button" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Moliavko_Mihail_Diplom" />
-      <option name="ENV_FILES" value="" />
+    <configuration name="run_build.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/moliavko_m/diplom/scriptsh/run_build.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/scriptsh" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moliavko_m/diplom/tests_api" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;moliavko_m.diplom.tests_api.test_api_logo_btn.test_api_7_button&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_api_report_a_concern.test_api_visit_values_button" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -304,11 +311,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Shell Script.run_build.sh" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python tests.pytest in example_stories_card_page.py" />
         <item itemvalue="Python tests.pytest in test_api_logo_btn.py" />
         <item itemvalue="Python tests.Python tests for test_api_report_a_concern.test_api_visit_values_button" />
-        <item itemvalue="Python tests.Python tests for moliavko_m.diplom.tests_api.test_api_logo_btn.test_api_7_button" />
       </list>
     </recent_temporary>
   </component>
@@ -504,7 +511,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736366083369</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="any text">
+      <option name="closed" value="true" />
+      <created>1736443194754</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1736443194754</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
